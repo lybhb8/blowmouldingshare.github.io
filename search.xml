@@ -1,9 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>不同螺杆构型的聚合物塑化过程混合特性分析</title>
+    <url>/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="不同螺杆构型的聚合物塑化过程混合特性分析"><a href="#不同螺杆构型的聚合物塑化过程混合特性分析" class="headerlink" title="不同螺杆构型的聚合物塑化过程混合特性分析"></a>不同螺杆构型的聚合物塑化过程混合特性分析</h1><p>鉴冉冉，谢鹏程，丁玉梅，杨卫民  </p>
+<p>( 北京化工大学，机电工程学院，北京 100029)  </p>
+<p>摘要: 螺杆混合性能是影响聚合物塑化质量和均匀性的重要因素之一。采用扭转元件、销钉元件、Maddock 元件及常规螺纹元件，应用计算流体力学软件 Polyflow 对5 种螺杆构型的混合特性进行了数值仿真分析，结合停留时间分布、剪切速率分布、拉伸速率分布、混合指数和非弹性应力张量的第一特征值等参数比较全面地对其混合能力进行了比较。结果表明，5 种螺杆构型流道内物料均以剪切流动为主，Maddock 元件的剪切作用最明显，具有分流功能的结构可以在一定程度上强化对物料的拉伸作用; 2 种扭转元件对于物料的混合效果相对较好，其次是销钉元件和 Maddock元件，最差的是常规螺纹元件。  </p>
+<p>关键词: 混合性能; 停留时间; 剪切速率; 拉伸速率; 混合效率; 混合指数中图分类号: TP391. 9 文献标识码: A 文章编号: 1001 － 9456( 2018) 06 － 0001 － 04  </p>
+<h2 id="Comparison-of-Polymer-Mixing-Properties-Processed-by-Different-Kinds-of-Screw-Configurations"><a href="#Comparison-of-Polymer-Mixing-Properties-Processed-by-Different-Kinds-of-Screw-Configurations" class="headerlink" title="Comparison of Polymer Mixing Properties Processed by Different Kinds of Screw Configurations"></a>Comparison of Polymer Mixing Properties Processed by Different Kinds of Screw Configurations</h2><p>JIAN Ｒanran，XIE Pengcheng，DING Yumei，YANG Weimin  </p>
+<p>Abstract: The mixing performance of screw was one of the important factors that affected the quality and uniformity of polymer plasticizing． Polymer mixing properties processed by five kinds of screw configurations，namely torsion element，pin element，maddock element and screw element，were simulated and compared through using Polyflow as polymer fluid dynamic software． The mixing ability was compared comprehensively based on residence time distribution，shear rate distribution， stretching rate distribution，mixing index and the first eigenvalue of the extra-stress tensor $T$ ． The results showed that material in the runner of five kinds of screw configurations suffered shear action mainly，and maddock element was of the largest shear action in the runner． The structure with distributary function could strengthen the tensile effect on the material to a certain extent． The mixing effect of two kinds of torsion elements was relatively good，the next was pin element and maddock element， the worst was the conventional screw element．  </p>
+<p>Keywords: mixing properties; resident time; shear rate; stretching rate; mixing efficiency; mixing index  </p>
+<h2 id="0-引言"><a href="#0-引言" class="headerlink" title="0 引言"></a>0 引言</h2><p>塑料制品越来越多地被用于精密光学器件、生物医学器件等领域，对挤出和注射成型加工中的聚合物塑化混合效果要求也越来越高［1］。由于常规螺杆塑化不均，精密制品容易出现各种质量缺陷，很难达到器件的使用要求［2］。  </p>
+<p>作为决定制品质量的关键因素之一，聚合物熔体的均匀性很大程度上取决于塑化过程中螺杆混合性能的优劣［3 －4］。目前，设计完成的混炼元件主要分为4 种形式: 分离型、屏障型、分流型以及变流道型［5 －8］。良好的混合性能可以强化传质，使物料的物理性能更加均匀，例如温度、黏度等。强化混合性能的流体流动形式主要有 3 种: 剪切流、拉伸流、扰流或螺旋流，例如，  </p>
+<p>Maddock 元件的设计原理为剪切流变理论，叶片挤出机［9］的设计原理是拉伸流变理论，销钉元件的设计原理是扰流分流理论，但3 种元件都能达到良好的混合效果。文章将场协同理论引入到聚合物塑化混合过程中，发明了强化径向传质的新型扭转元件［10 －11］，通过扭转曲面和机筒内壁的双重作用实现了物料在流道内的径向翻滚，加速了聚合物的塑化，改善了混合均匀性。  </p>
+<p>在研究中，文章试图采用计算流体力学软件 Polyflow 对常规螺纹元件、销钉元件、Maddock 元件及扭转元件等 5 种不同构型的塑化混炼结构的混合性能进行模拟和对比分析，从而验证了扭转元件对混合性能的改善程度，为其在挤出和注射成型加工设备中的应用提供了理论参考。  </p>
+<h2 id="1-理论模型"><a href="#1-理论模型" class="headerlink" title="1 理论模型"></a>1 理论模型</h2><h3 id="1-1-物理模型"><a href="#1-1-物理模型" class="headerlink" title="1. 1 物理模型"></a>1. 1 物理模型</h3><p>扭转元件三维实体模型如图1 所示，将一定长度的某段螺杆沿圆周方向 $n$ 等分设置分割槽，入口处将单股料流分流成多股，出口处将多股料流汇流成单股; 在分割槽内设计2 个相互垂直的 $90^{\circ}$ 扭转曲面，使聚合物在分割棱和机筒的引导下实现扭转，把原先位于分割槽底部的物料移动到分割槽顶部，使聚合物熔体在沿斜面轴向流动的同时发生径向翻滚。  </p>
+<p>5 种螺杆构型的三维实体模型如图 2 所示，长度和外径均为 $30<del>\mathrm{mm}$ 。螺纹元件螺距为 $30</del>\mathrm{mm}$ ，单个扭转元件长度为 $10\ \mathrm{mm}$ 。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/cbf3a89fa62e47eff3eac69364ccc99f059f3be0e1a200b37c049b4497754e50.jpg"><br>图1 扭转元件物理模型  </p>
+<p>图2d 是3 个扭转元件的分割棱对齐排列，图 2e 是 3 个扭转元  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/33e2002f0a1be475bdb4a04c7994b88822d3f4f748c06be326839ea0245ee121.jpg"><br>( a) 螺纹元件 ( b) 销钉元件 ( c) Maddock 元件 ( d) 扭转元件 A ( e) 扭转元件 B<br>图2 5 种螺杆构型的物理模型  </p>
+<p>件的分割棱交错排列。  </p>
+<h3 id="1-2-数学模型和边界条件"><a href="#1-2-数学模型和边界条件" class="headerlink" title="1. 2 数学模型和边界条件"></a>1. 2 数学模型和边界条件</h3><p>结合聚合物的成型理论，做出如下假设: 熔体为不可压缩流体，流动为非等温非稳定流动，熔体在流道中全充满，壁面无滑移且不计惯性力、重力的影响。流体物性参数如表1 所示。  </p>
+<p>表1 流体物性参数  </p>
+<html><body><table><tr><td>项目</td><td>数值</td></tr><tr><td>密度p/(kg/m3)</td><td>900</td></tr><tr><td>热导率k/（W/（m·K)）</td><td>2</td></tr><tr><td>定容比热容C,/（J/（kg·K)）</td><td>20</td></tr><tr><td>no /( Pa · s)</td><td>10 000</td></tr><tr><td>n∞ /( Pa · s)</td><td>100</td></tr><tr><td>非牛顿指数n</td><td>0.75</td></tr><tr><td>自然时间入/s</td><td>0.5</td></tr><tr><td>温度系数α/（K-1)</td><td>2000</td></tr><tr><td>绝对零度To/K</td><td>0</td></tr><tr><td>基准温度T。/K</td><td>473</td></tr></table></body></html>  
+
+<p>在以上多种假设的情况下，描述该流场的控制方程如公式( 1) ～ ( 3) 所示。  </p>
+<p>连续性方程 </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac></mrow><mspace width="0.16667em"></mspace><mo>=</mo><mspace width="0.16667em"></mspace><mn>0</mn></mrow><annotation encoding="application/x-tex">
+
+{\frac{\partial u_{i}}{\partial x_{i}}}\,=\,0
+
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.9011079999999999em;"></span><span class="strut bottom" style="height:1.351108em;vertical-align:-0.44999999999999996em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span></span><span class="mord mspace thinspace"></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord mathrm">0</span></span></span></span>
+
+<p>动量方程  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>p</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mspace width="0.16667em"></mspace><mo>=</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mo fence="false">(</mo><mspace width="0.16667em"></mspace><mi>η</mi><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mo fence="false">)</mo></mrow><annotation encoding="application/x-tex">
+\rho\,\frac{\partial u_{i}}{\partial t}\,+\,\frac{\partial p}{\partial x_{i}}\,=\,\frac{\partial}{\partial x_{j}}\bigg(\,\eta\,\frac{\partial u_{i}}{\partial x_{j}}\bigg)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.45em;"></span><span class="strut bottom" style="height:2.40003em;vertical-align:-0.95003em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ρ</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">t</span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.44610799999999995em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">p</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.34500000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15000000000000002em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit" style="margin-right:0.05724em;">j</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size3">(</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.34500000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15000000000000002em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit" style="margin-right:0.05724em;">j</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size3">)</span></span></span></span></span></span> 
+
+<p>能量方程  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi><mspace width="0.277778em"></mspace><msub><mi>c</mi><mrow><mi>p</mi></mrow></msub><mrow><mo fence="true">(</mo><mspace width="0.277778em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub><mspace width="0.277778em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mspace width="0.16667em"></mspace><mi>λ</mi><mspace width="0.277778em"></mspace><mfrac><mrow><msup><mi mathvariant="normal">∂</mi><mrow><mn>2</mn></mrow></msup><mspace width="0.16667em"></mspace><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mspace width="0.277778em"></mspace><msubsup><mi>x</mi><mrow><mi>i</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><mi>φ</mi></mrow><annotation encoding="application/x-tex">
+\rho\;c_{p}\left(\;\frac{\partial T}{\partial t}\,+\,u_{i}\;\frac{\partial T}{\partial x_{i}}\right)=\,\lambda\;\frac{\partial^{2}\,T}{\partial\;x_{i}^{2}}\,+\,\varphi
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.15em;"></span><span class="strut bottom" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ρ</span><span class="mord mspace thickspace"></span><span class="mord"><span class="mord mathit">c</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit">p</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="minner textstyle uncramped"><span class="style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">t</span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord mathit">λ</span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.3735799999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mspace thickspace"></span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.2862857142857143em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span style="top:-0.34479999999999994em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="vlist"><span style="top:-0.363em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle uncramped"><span class="mord scriptscriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord mathit">φ</span></span></span></span>
+
+<p>本构方程采用 Bird-Carreau 模型和 Arrhenius 模型进行描述，如式( 4) 所示。  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>η</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mo>[</mo><mtext> </mtext><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub><mtext> </mtext><mo>+</mo><mtext> </mtext><mo>(</mo><mtext> </mtext><msub><mi>η</mi><mrow><mn>0</mn></mrow></msub><mtext> </mtext><mo>−</mo><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub><mo>)</mo><mo>(</mo><mtext> </mtext><mn>1</mn><mtext> </mtext><mo>+</mo><msup><mi>λ</mi><mrow><mn>2</mn></mrow></msup><mtext> </mtext><msup><mover accent="true"><mrow><mi>γ</mi></mrow><mo>˙</mo></mover><mrow><mn>2</mn></mrow></msup><msup><mo>)</mo><mrow><mfrac><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup><mo>]</mo><mspace width="0.16667em"></mspace><mo>⋅</mo></mrow><annotation encoding="application/x-tex">
+\eta~=~[~\eta_{\infty}~+~(~\eta_{0}~-\eta_{\infty})(~1~+\lambda^{2}~\dot{\gamma}^{2})^{\frac{n-1}{2}}]\,\cdot
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.961885em;"></span><span class="strut bottom" style="height:1.211885em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="mord mspace"> </span><span class="mrel">=</span><span class="mord mspace"> </span><span class="mopen">[</span><span class="mord mspace"> </span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mbin">+</span><span class="mord mspace"> </span><span class="mopen">(</span><span class="mord mspace"> </span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mbin">−</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mspace"> </span><span class="mord mathrm">1</span><span class="mord mspace"> </span><span class="mbin">+</span><span class="mord"><span class="mord mathit">λ</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mord"><span class="mord accent"><span class="vlist"><span style="top:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="mord textstyle cramped"><span class="mord mathit" style="margin-right:0.05556em;">γ</span></span></span><span style="top:0em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="accent-body"><span>˙</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose"><span class="mclose">)</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord reset-scriptstyle scriptstyle uncramped"><span class="sizing reset-size5 size5 reset-scriptstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathrm">2</span></span></span></span><span style="top:-0.22142857142857142em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle textstyle uncramped frac-line"></span></span><span style="top:-0.3952357142857143em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle uncramped"><span class="mord scriptscriptstyle uncramped"><span class="mord mathit">n</span><span class="mbin">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-scriptstyle textstyle uncramped nulldelimiter"></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose">]</span><span class="mord mspace thinspace"></span><span class="mbin">⋅</span></span></span></span> 
+
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>exp</mi><mo fence="true">[</mo><mspace width="0.16667em"></mspace><mi>α</mi><mo fence="true">(</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mn>1</mn></mrow><mrow><mi>T</mi><mspace width="0.16667em"></mspace><mo>−</mo><mspace width="0.16667em"></mspace><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mn>0</mn></mstyle></mrow></msub></mrow></mfrac><mspace width="0.16667em"></mspace><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mi>α</mi></mstyle></mrow></msub><mspace width="0.16667em"></mspace><mo>−</mo><mspace width="0.16667em"></mspace><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mn>0</mn></mstyle></mrow></msub></mrow></mfrac><mo fence="true">)</mo><mo fence="true">]</mo></mrow><annotation encoding="application/x-tex">
+\exp\Bigl[\,\alpha\Bigl(\,\frac{1}{T\,-\,T_{\scriptscriptstyle0}}\,-\frac{1}{T_{\scriptscriptstyle\alpha}\,-\,T_{\scriptscriptstyle0}}\Bigr)\Bigr]
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.15em;"></span><span class="strut bottom" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="base textstyle uncramped"><span class="mop">exp</span><span class="mopen"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">[</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mopen"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">(</span></span></span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathrm">0</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathrm">0</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mclose"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">)</span></span></span><span class="mclose"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">]</span></span></span></span></span></span> 
+
+
+<p>式中: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>η</mi></mrow><annotation encoding="application/x-tex">\eta </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.03588em;">η</span></span></span></span> 为表观黏度，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><msub><mi>η</mi><mrow><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s};\eta_{0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为零剪切黏度，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s};\eta_{\infty} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为无穷大剪切黏度， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><mi>λ</mi></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s} ; \lambda </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord mathit">λ</span></span></span></span> 为自然时间， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="bold">s</mi></mrow><mo separator="true">;</mo><mi>α</mi></mrow><annotation encoding="application/x-tex">\mathbf{s};\alpha </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.44444em;"></span><span class="strut bottom" style="height:0.63888em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathbf">s</span></span><span class="mpunct">;</span><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span> 为温度系数， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow><mrow><mi mathvariant="normal">K</mi></mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">{\mathrm{K}}^{-1} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">K</span></span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> ; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>T</mi><mrow><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">T_{0}  </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为绝对零度，K; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>T</mi><mrow><mi>α</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{\alpha} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为基准温度， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">K</mi></mrow><mo separator="true">;</mo><mo separator="true">,</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">\mathrm{K};,n </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">K</span></span><span class="mpunct">;</span><span class="mpunct">,</span><span class="mord mathit">n</span></span></span></span> 为非牛顿指数; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mrow><mi>γ</mi></mrow><mo>˙</mo></mover></mrow><annotation encoding="application/x-tex">\dot{\gamma} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.66786em;"></span><span class="strut bottom" style="height:0.8623000000000001em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord accent"><span class="vlist"><span style="top:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="mord textstyle cramped"><span class="mord mathit" style="margin-right:0.05556em;">γ</span></span></span><span style="top:0em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="accent-body"><span>˙</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为剪切速率， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">\mathrm{s}^{-1} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 。</p>
+<p>计算中所用到的流动边界条件和热边界条件如表 2 所示，流体与机筒进行恒壁温对流换热。  </p>
+<p>表2 边界条件  </p>
+<html><body><table><tr><td>位置</td><td>流动边界条件</td><td>热边界条件</td></tr><tr><td>流动人口</td><td>质量流率5kg/h</td><td>453 K</td></tr><tr><td>流动出口</td><td>自由出口</td><td>热出口</td></tr><tr><td>机筒内表面</td><td>转速60r/min</td><td>513 K</td></tr><tr><td>螺杆外表面</td><td>壁面无滑移</td><td>绝热</td></tr></table></body></html>  
+
+<h2 id="2-结果与讨论"><a href="#2-结果与讨论" class="headerlink" title="2 结果与讨论"></a>2 结果与讨论</h2><h3 id="2-1-停留时间分布"><a href="#2-1-停留时间分布" class="headerlink" title="2. 1 停留时间分布"></a>2. 1 停留时间分布</h3><p>停留时间分布是表征混合效果的重要参数，停留时间分布曲线相对靠右，则混合效果越好［12］。在流道入口处随机释放3 000个粒子，通过 Polyflow 软件的 Polystat 统计功能模块，统计这些粒子在流场中的运动情况并进行相应的分析。图3 为 5 种螺杆构型对应流道内粒子的累积停留时间分布及流线轨迹。可以看出，累积停留时间分布曲线从左到右依次是螺纹元件、Maddock 元件、销钉元件/扭转元件 A/扭转元件 B。一般而言，Maddock 元件、销钉元件、2 种扭转元件的累积停留时间分布曲线相差较小。结合 5 种螺杆构型的流线轨迹发现，Maddock 结构、销钉和扭转结构的存在引起了扰流或螺旋流，使粒子的运动历程延长，停留时间增大。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/91c2c895d326922d523c2f17a2bee6d07d8e1d12b0a27ac3327e28e9ab729468.jpg"><br>图3 5 种螺杆构型的停留时间分布及流线  </p>
+<h3 id="2-2-剪切速率和拉伸速率分布"><a href="#2-2-剪切速率和拉伸速率分布" class="headerlink" title="2. 2 剪切速率和拉伸速率分布"></a>2. 2 剪切速率和拉伸速率分布</h3><p>剪切速率和拉伸速率分别是评价混合元件对物料剪切和拉伸作用的重要参数，剪切作用和拉伸作用均有助于混合。图 4为5 种螺杆构型沿螺杆轴向的平均剪切速率分布。可以看出，Maddock 元件的剪切速率最大，螺纹元件的剪切速率最小; 销钉元件、扭转元件 A 和扭转元件 B 的沿程剪切速率相差较小; 在没有销钉的轴向位置处，剪切速率有所下降。结果与各螺杆构型是相吻合的，螺杆与机筒间隙越小，剪切作用越明显。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/db175c406efed58c8485e8ac6c08795c83b7c219b0df2c0a6ef0d8871f7ea4a3.jpg"><br>图4 5 种螺杆构型的剪切速率分布  </p>
+<p>图5 为5 种螺杆构型沿螺杆轴向的平均拉伸速率分布。从拉伸速率的数值上可以看出，5 种螺杆构型对物料均没有明显的拉伸作用。然而，对于扭转元件 B 在单个扭转元件交错连接处和销钉元件在销钉位置处，拉伸速率均有所上升，说明结构对物料的分流作用会产生拉伸效果。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/2d0bbf1fadb3b6ba828434c8b4b9d46e4144cac44ab687ff21e1dca1036ac78d.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 ● － 销钉元件 ■ － 扭转元件 A ○ － 扭转元件 B图5 5 种螺杆构型的拉伸速率分布  </p>
+<h3 id="2-3-混合效率"><a href="#2-3-混合效率" class="headerlink" title="2. 3 混合效率"></a>2. 3 混合效率</h3><p>瞬时混合效率和时均混合效率是表征分布混合性能的重要参数，表示物料在拉伸作用下面积伸展的程度［13］。图 6 为 5 种螺杆构型瞬时混合效率随着时间的变化曲线。可以看出，5 种螺杆构型的瞬时混合效率从高到低依次是扭转元件 B、扭转元件 A、销钉元件、Maddock 元件、螺纹元件。这说明随着时间的增加，扭转元件对应的瞬态混合效率高于其他元件，使流道内物料受到拉伸作用而混合效果更好。与图 5 所得结果相比较说明，实验中，在拉伸作用没有明显差异的情况下，瞬时混合效率对拉伸作用的效应比截面平均拉伸速率更明显。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/a9ea09d5e9e18be65ea368c453feac7a5ea195002c7d045379ac34d35db1ff77.jpg"><br>1 － 扭转元件 B 2 － 扭转元件 A 3 － 销钉元件 4 － Maddock 元件 5 － 螺纹元件图6 5 种螺杆构型的瞬时混合效率  </p>
+<p>图7 为5 种螺杆构型沿螺杆轴向的时均混合效率分布。可以看出，随着轴向位置的增加，5 种螺杆构型的时均混合效率从高到低依次为销钉元件、扭转元件 B、扭转元件 A/Maddock 元件、螺纹元件。对于扭转元件 B，在单个扭转元件连接处，时均混合效率迅速增加，这与图5 所示的结果是一致的，单个扭转元件交错连接处分割棱的分流作用打断了流体微团，产生了拉伸作用，提高了混合效果。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/6a0eaec56c52dac63b839f4171b1d441d10035e5735de75239cc40e9c7bc1104.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 ● － 销钉元件 ■ － 扭转元件 $\textrm{A O}-$ 扭转元件 B图7 5 种螺杆构型的时均混合效率  </p>
+<h3 id="2-4-混合指数和非弹性应力张量的第一特征值"><a href="#2-4-混合指数和非弹性应力张量的第一特征值" class="headerlink" title="2.4 混合指数和非弹性应力张量的第一特征值"></a>2.4 混合指数和非弹性应力张量的第一特征值</h3><p>混合指数和非弹性应力张量的第一特征值是表征分散混合性能的重要参数。混合指数的值可以反映流体的流动形式，在0 ～1 的范围内变化，1 代表纯拉伸流动，0. 5 代表简单剪切流动，0 代表简单有旋流动或平移( 刚体运动) ［14 －15］。而非弹性应力张量的第一特征值是使粒子发生破碎的主要应力。图 8 为 5种螺杆构型沿螺杆轴向的混合指数分布情况。可以看出，5 种螺杆构型的混合指数主要集中在 0. 5 左右，说明物料主要以剪切流动为主。对于扭转元件 B，混合指数在单个扭转元件交错连接处出现波峰，与上述图5 和图7 的结果较为一致。  </p>
+<p>图9 为5 种螺杆构型的非弹性应力张量第一特征值。从图中可以得到，该应力第一特征值从高到低依次是 Maddock 元件、扭转元件 A/扭转元件 B/销钉元件、螺纹元件。其中，2 种扭转元件和销钉元件的变化趋势相差较小。因为扭转元件与销钉元件均是基于扰流或螺旋流的作用机制对混合产生影响的，对粒子的破碎作用相对于强剪切结构 Maddock 元件要弱，但是高于常规螺纹元件。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/94ae7937026c3c958d2d0001d2fb2665947747d04819c0d5e6188baabc9c1c70.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 $\bullet$ －销钉元件 $\mid-$ 扭转元件 A ○ －扭转元件 B<br>图8 5 种螺杆构型的混合指数  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/48db75ee4d0837d2ec93aa506108506dc6ec59a1ecf45e794d6de4d031102431.jpg"><br>图9 5 种螺杆构型的非弹性应力张量第一特征值  </p>
+<h2 id="3-结论"><a href="#3-结论" class="headerlink" title="3 结论"></a>3 结论</h2><p>文章通过停留时间分布、剪切速率、拉伸速率、混合效率、混合指数、非弹性应力张量的第一特征值等参数对 5 种螺杆构型的混合性能进行了分析和探讨，获得了如下结论:  </p>
+<ol>
+<li><p>5 种螺杆构型对物料的混合效果相对较好的是扭转元件和销钉元件，其次是 Maddock 元件，最后是螺纹元件。新型螺杆结构通过在流道中引入螺旋流，可以增加粒子的运动历程和停留时间，使混合效果更加充分。  </p>
+</li>
+<li><p>Maddock 元件的剪切速率最大，其次是扭转元件和销钉元件，最后是螺纹元件。螺杆与机筒的间隙越小，剪切作用越大，通过增加微小间隙的面积，可以强化其对物料的剪切作用。此外，具有分流功能的结构也可以强化其对物料的拉伸作用。  </p>
+</li>
+<li><p>5 种螺杆构型的瞬时混合效率从高到低依次是扭转元件B、扭转元件 A、销钉元件、Maddock 元件、螺纹元件。综合比较，扭转元件对物料的混合效果要优于销钉元件、Maddock 元件和螺纹元件。扭转元件分割棱的交错排列优于分割棱对齐排列。  </p>
+</li>
+<li><p>5 种螺杆构型的的混合指数主要集中在 0. 5 左右，流动形式主要以剪切流为主。其中，Maddock 元件对物料的破碎作用相对较好，扭转元件和销钉元件次之，螺纹元件最差。  </p>
+</li>
+</ol>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献:"></a>参考文献:</h1><p>［1］ 余东泉，何亚东，杨昆晓，等． 三螺杆挤出机剪切 － 拉伸作用的理论分析［J］． 塑料，2018，47( 2) : 119 － 121．<br>［2］ HOPMANN C，FISCHEＲT． New plasticising process for increasedprecision and reduced residence times in injection moulding of microparts［J］． CIＲP Journal of Manufacturing Science and Technology，2015，9: 51 － 56．<br>［3］ POTENTE H，TOBBEN W H． Improved design of shearing sectionswith new calculation models based on 3D finite-element simulations［J］． Macromolecular Materials and Engineering，2002，287 ( 11 ) :808 － 814．<br>［4］ SIKOＲA J W，SAMUJLO B． Investigation of the poly( vinyl chloride)extrusion process using a feed throat with a feed pocket［J］． PolymerEngineering and Science， $2014,54({:9}):2037:-2045.$<br>［5］ CHEN J，DAI P，YAO H，et al． Numerical analysis of mixing performanceof mixing section in pin-barrel single-screw extruder［J］． Journal ofPolymer Engineering， $2011,,31(,1):53,-62$ ．<br>［6］ ＲAUWENDAAL C． New developments in mixing and screw design［J］． Plastics，Additives and Compounding， $2008,,10(,6):32,-36$ ．<br>［7］ JIAN Ｒ，YANG W，CHENG L，et al． Numerical analysis of enhancedheat transfer by incorporating torsion elements in the homogenizingsection of polymer plasticization with the field synergy principle［J］．International Journal of Heat and Mass Transfer，2017，115，Part A:946 － 953．<br>［8］ TAGUCHI T，SAITO H． Effects of plasticization and hydrostatic pressureon tensile properties of PMMA under compressed carbon dioxide andnitrogen ［J ］． Journal of Applied Polymer Science，2016，133( 20) : 43431．<br>［9］ 华南理工大学． 基于拉伸流变的高分子材料塑化输运方法及设备: 中国，CN100496927C［P］． 2009 － 06 － 10．<br>［10］ 北京化工大学． 聚合物熔体微积分强化传热与混炼塑化挤出机:中国，CN103753793A［P］． 2014 － 04 － 30．<br>［11］ 鉴冉冉，谢鹏程，杨卫民． 基于场协同原理的聚合物塑化过程数值分析［J］． 工程热物理学报，2017，38( 2) : 281 － 288．<br>［12］ KIM S J，KWON T H． Enhancement of mixing performance of single-screw extrusion processes via chaotic flows: Part I． Basic concepts andexperimental study［J］． Advances in Polymer Technology，1996，$15(\mathrm{<del>1</del>}):41-54$ ．<br>［13］ 李彬． 单螺杆混沌挤出过程混合机理与实验研究［D］． 江门: 五邑大学，2014．<br>［14］ 胡建鹏，杜瑶雪，吴希智． 聚合物新型混合分散装置塑化过程模拟分析［J］． 五邑大学学报: 自然科学版，2012，26( 4) : 37 － 41．<br>［15］ 王天书，郝永辉，朱向哲． 螺棱数对三螺杆挤出机混合段流动和混合特性的影响［J］． 塑料工业，2015，43( 12) : 69 － 73．  </p>
+<p>( 本文编辑 GYJ)  </p>
+]]></content>
+      <categories>
+        <category>塑料机械</category>
+      </categories>
+      <tags>
+        <tag>吹塑机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>塑料基础入门</title>
     <url>/2025/01/11/%E5%A1%91%E6%96%99%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"><br></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"><br></p>
 <p>这份文件是一份关于塑料基础入门的PDF文档，由钟匠咨询的 <strong>梁焕彬</strong> 编写。</p>
 <p><strong>梁焕彬</strong> 拥有24年的模塑相关工作经验，其中6年专注于塑料市场开发，3年致力于塑料技术应用知识的培训咨询和科普工作推广。他目前是钟匠（上海）企业管理咨询有限公司的合伙人，擅长系统化塑料技术应用服务和塑料产业链资源整合。</p>
 <p>这份文档旨在为读者提供塑料材料的基础知识，包括塑料的分类、物理特性、添加剂以及成型加工等方面的内容，帮助读者建立对塑料的系统性理解，并在实际工作中实现提质增效降本的目标。</p>
@@ -26,7 +118,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>阻隔用塑料EVOH</title>
     <url>/2025/01/06/%E9%98%BB%E9%9A%94%E7%94%A8%E5%A1%91%E6%96%99EVOH/</url>
-    <content><![CDATA[<div>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><div>
 **如果PDF显示不正常**<input type="button" value="请重新刷新页面" onclick="location.reload(true)">
 </div>
 
@@ -60,7 +152,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑机液压系统</title>
     <url>/2025/01/06/%E5%90%B9%E5%A1%91%E6%9C%BA%E6%B6%B2%E5%8E%8B%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <iframe name="iframe1" src="./吹塑机液压系统.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
 <script>
@@ -83,7 +175,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>S7-1200 EasyPlus4.3</title>
     <url>/2024/10/08/S7-1200-EasyPlus4-3/</url>
-    <content><![CDATA[<h1 id="S7-1200-技术手册-EasyPlus4-3"><a href="#S7-1200-技术手册-EasyPlus4-3" class="headerlink" title="S7-1200 技术手册 EasyPlus4.3"></a>S7-1200 技术手册 EasyPlus4.3</h1><p><img src="https://assets.new.siemens.com/siemens/assets/api/uuid:949810fa4b3b04bf5027400fa6bb8e0b83b51c03/quality:high/width:1125/crop:0:0,2265625:0,9978142076502732:0,501953125/digital-layer-basic-controller.jpg"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="S7-1200-技术手册-EasyPlus4-3"><a href="#S7-1200-技术手册-EasyPlus4-3" class="headerlink" title="S7-1200 技术手册 EasyPlus4.3"></a>S7-1200 技术手册 EasyPlus4.3</h1><p><img src="https://assets.new.siemens.com/siemens/assets/api/uuid:949810fa4b3b04bf5027400fa6bb8e0b83b51c03/quality:high/width:1125/crop:0:0,2265625:0,9978142076502732:0,501953125/digital-layer-basic-controller.jpg"></p>
 <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><ul>
 <li>S7-1200 EasyPlus 包括 S7-1200 PLC 系列的使用、通信、技术工艺等的编程配置的详细步，并对用户经常，甚至是必然遇到的问题、疑问的解答，以及隐含着其他许多问题答案的叙述性文字，还有一些作者认为有助于读者理解、解决问题的背景知识。S7-1200 Easy Plus力争做到精简实用，帮助技术人员快速上手，解决使用中的常见问题。</li>
 <li>S7-1200 EasyPlus 的内容来自西门子的技术资料，西门子的产品开发、技术支持工程师的知识、经验，用户的知识和经验，以及其他技术资料。</li>
@@ -108,7 +200,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>Linux嵌入式编程笔记</title>
     <url>/2024/03/05/Linux%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h2 id="embedded-notes"><a href="#embedded-notes" class="headerlink" title="embedded-notes"></a>embedded-notes</h2><blockquote>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2 id="embedded-notes"><a href="#embedded-notes" class="headerlink" title="embedded-notes"></a>embedded-notes</h2><blockquote>
 <ul>
 <li>主要涉及到嵌入式软件开发、嵌入式驱动开发、IOT开发、git等知识点。</li>
 <li>转载自<a class="link" href="https://github.com/xiaowenxia/embedded-notes/wiki">原文wiki<i class="fas fa-external-link-alt"></i></a>和<a class="link" href="https://xiaowenxia.github.io/embedded-notes/">xiaowenxia的博客<i class="fas fa-external-link-alt"></i></a></li>
@@ -143,7 +235,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>Go入门指南</title>
     <url>/2024/03/05/Go%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</url>
-    <content><![CDATA[<h1 id="Go入门指南"><a href="#Go入门指南" class="headerlink" title="Go入门指南"></a>Go入门指南</h1><p>以下是原作者所述：</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="Go入门指南"><a href="#Go入门指南" class="headerlink" title="Go入门指南"></a>Go入门指南</h1><p>以下是原作者所述：</p>
 <p>在接触 Go 语言之后，对这门编程语言非常着迷，期间也陆陆续续开始一些帮助国内编程爱好者了解和发展 Go 语言的工作，比如开始录制视频教程<a class="link" href="https://github.com/Unknwon/go-fundamental-programming">《Go编程基础》<i class="fas fa-external-link-alt"></i></a>。但由于目前国内并没有比较好的 Go 语言书籍，而国外的优秀书籍因为英文的缘故在一定程度上也为不少 Go 语言爱好者带来了一些学习上的困扰，不仅为了加快扩散 Go 爱好者的国内群体，本人在完成阅读这本名叫 《The Way to Go》 之后，决定每天抽出一点时间来进行翻译的工作，并且以开源的形式免费分享给有需要的 Go 语言爱好者。</p>
 <p>尽管该书对目前 Go 语言版本来说有小部分内容相对过时，但是为当下不可多得的好书，相关内容已获得作者同意根据当前 Go 语言版本进行修改而不作出特别声明。</p>
 <p>该翻译版本已获得原作者（Ivo Balbaert）本人授权，并表示支持开源事业的发展！</p>
@@ -188,7 +280,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>Smart20 吹塑机控制系统</title>
     <url>/2023/06/02/Smart-20-%E5%90%B9%E5%A1%91%E6%9C%BA%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<h1 id="Smart20-吹塑机控制系统-BlowmoldingControlSystem"><a href="#Smart20-吹塑机控制系统-BlowmoldingControlSystem" class="headerlink" title="Smart20 吹塑机控制系统| BlowmoldingControlSystem"></a>Smart20 吹塑机控制系统| BlowmoldingControlSystem</h1><p>基于HMI+PLC 的吹塑机控制系统 A Blowmolding Control System Base by HMI+PLC </p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="Smart20-吹塑机控制系统-BlowmoldingControlSystem"><a href="#Smart20-吹塑机控制系统-BlowmoldingControlSystem" class="headerlink" title="Smart20 吹塑机控制系统| BlowmoldingControlSystem"></a>Smart20 吹塑机控制系统| BlowmoldingControlSystem</h1><p>基于HMI+PLC 的吹塑机控制系统 A Blowmolding Control System Base by HMI+PLC </p>
 <ul>
 <li><p><a class="link" href="https://github.com/lybhb8/Smart20-BlowmoldingControlSystem">系统仓库/Github<i class="fas fa-external-link-alt"></i></a></p>
 </li>
@@ -375,7 +467,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>最新西门子工业常用软件官网下载链接(2022.07)</title>
     <url>/2023/06/02/%E6%9C%80%E6%96%B0%E8%A5%BF%E9%97%A8%E5%AD%90%E5%B7%A5%E4%B8%9A%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5-2022-07/</url>
-    <content><![CDATA[<h3 id="1-TIA-Portal"><a href="#1-TIA-Portal" class="headerlink" title="1 TIA Portal"></a>1 TIA Portal</h3><h4 id="SIMATIC-STEP-7（包括-Safety）、S7-PLCSIM-和-WinCC-V17-试用版下载"><a href="#SIMATIC-STEP-7（包括-Safety）、S7-PLCSIM-和-WinCC-V17-试用版下载" class="headerlink" title="SIMATIC STEP 7（包括 Safety）、S7-PLCSIM 和 WinCC V17 试用版下载"></a>SIMATIC STEP 7（包括 Safety）、S7-PLCSIM 和 WinCC V17 试用版下载</h4><p><a class="link" href="https://support.industry.siemens.com/cs/ww/en/view/109784440/zh">https://support.industry.siemens.com/cs/ww/en/view/109784440/zh<i class="fas fa-external-link-alt"></i></a></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h3 id="1-TIA-Portal"><a href="#1-TIA-Portal" class="headerlink" title="1 TIA Portal"></a>1 TIA Portal</h3><h4 id="SIMATIC-STEP-7（包括-Safety）、S7-PLCSIM-和-WinCC-V17-试用版下载"><a href="#SIMATIC-STEP-7（包括-Safety）、S7-PLCSIM-和-WinCC-V17-试用版下载" class="headerlink" title="SIMATIC STEP 7（包括 Safety）、S7-PLCSIM 和 WinCC V17 试用版下载"></a>SIMATIC STEP 7（包括 Safety）、S7-PLCSIM 和 WinCC V17 试用版下载</h4><p><a class="link" href="https://support.industry.siemens.com/cs/ww/en/view/109784440/zh">https://support.industry.siemens.com/cs/ww/en/view/109784440/zh<i class="fas fa-external-link-alt"></i></a></p>
 <h4 id="SIMATIC-WinCC-V17-运行系统-TIA-Portal"><a href="#SIMATIC-WinCC-V17-运行系统-TIA-Portal" class="headerlink" title="SIMATIC WinCC V17 运行系统 (TIA Portal)"></a>SIMATIC WinCC V17 运行系统 (TIA Portal)</h4><p><a class="link" href="https://support.industry.siemens.com/cs/ww/en/view/109793105/zh">https://support.industry.siemens.com/cs/ww/en/view/109793105/zh<i class="fas fa-external-link-alt"></i></a></p>
 <h4 id="SIMATIC-STEP-7-incl-Safety-and-WinCC-V16-TRIAL-Download"><a href="#SIMATIC-STEP-7-incl-Safety-and-WinCC-V16-TRIAL-Download" class="headerlink" title="SIMATIC STEP 7 incl. Safety and WinCC V16 TRIAL Download"></a>SIMATIC STEP 7 incl. Safety and WinCC V16 TRIAL Download</h4><p><a class="link" href="https://support.industry.siemens.com/cs/ww/en/view/109772803">https://support.industry.siemens.com/cs/ww/en/view/109772803<i class="fas fa-external-link-alt"></i></a></p>
 <h4 id="SIMATIC-WinCC-V16-Runtime-TIA-Portal"><a href="#SIMATIC-WinCC-V16-Runtime-TIA-Portal" class="headerlink" title="SIMATIC WinCC V16 Runtime (TIA Portal)"></a>SIMATIC WinCC V16 Runtime (TIA Portal)</h4><p><a class="link" href="https://support.industry.siemens.com/cs/ww/en/view/109772878">https://support.industry.siemens.com/cs/ww/en/view/109772878<i class="fas fa-external-link-alt"></i></a></p>
@@ -422,7 +514,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>iBooker 团队知识库</title>
     <url>/2023/05/31/iBooker-%E5%9B%A2%E9%98%9F%E7%9F%A5%E8%AF%86%E5%BA%93/</url>
-    <content><![CDATA[<h1 id="iBooker-团队知识库"><a href="#iBooker-团队知识库" class="headerlink" title="iBooker 团队知识库"></a>iBooker 团队知识库</h1><blockquote>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="iBooker-团队知识库"><a href="#iBooker-团队知识库" class="headerlink" title="iBooker 团队知识库"></a>iBooker 团队知识库</h1><blockquote>
 <p>协议：<a class="link" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0<i class="fas fa-external-link-alt"></i></a></p>
 <p>承认吧，我们是弱者，正因为生来什么都没有，因此我们能拥有一切，以身为弱者而骄傲吧！——《游戏人生》</p>
 </blockquote>
@@ -468,7 +560,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级HDPE 5621D</title>
     <url>/2022/12/06/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HDPE-5621D/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <iframe src="./5621D.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
 <iframe src="./5621DEnglish.pdf" width="100%" height="750" type="application/pdf"></iframe>
@@ -492,7 +584,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级HDPE 5121B</title>
     <url>/2022/12/06/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HDPE-5121B/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <iframe src="./5121B.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
 <iframe src="./5121BEnglish.pdf" width="100%" height="750" type="application/pdf"></iframe>
@@ -516,7 +608,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>MarkDown超级教程 Obsidian版</title>
     <url>/2022/07/13/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B%20Obsidian%E7%89%88/</url>
-    <content><![CDATA[<h1 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown?"></a>什么是 Markdown?</h1><ol>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="什么是-Markdown"><a href="#什么是-Markdown" class="headerlink" title="什么是 Markdown?"></a>什么是 Markdown?</h1><ol>
 <li><strong>Markdown</strong> 是一款轻量级标记语言，不同于HTML <strong>(Hypertext Markup Language)<strong>，</strong>Markdown</strong> 的语法非常简单，且容易上手</li>
 <li><strong>Markdown</strong> 以 <strong>纯文本格式</strong> 编写文档，依赖键盘而非鼠标，专注于<strong>写作本身</strong>，感受<strong>书写</strong>的魅力</li>
 <li><strong>Markdown</strong> 的通过添加一些简单的 <strong>标识符</strong>，让文本具有<strong>恰到好处</strong>的格式</li>
@@ -2241,7 +2333,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>中文技术文档的写作规范</title>
     <url>/2022/07/09/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83/</url>
-    <content><![CDATA[<p>《中文技术文档的写作规范》，引用于<a class="link" href="https://wangdoc.com/">网道<i class="fas fa-external-link-alt"></i></a>，<a class="link" href="https://wangdoc.com/">网道<i class="fas fa-external-link-alt"></i></a>是一个文档网站提供互联网开发文档，正在建设中。这个项目的目标是，提供高质量的、拥有自主版权的、可以自由使用的中文软件文档。网道追求是：“复杂的技术，简单的讲解。” <span id="more"></span></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>《中文技术文档的写作规范》，引用于<a class="link" href="https://wangdoc.com/">网道<i class="fas fa-external-link-alt"></i></a>，<a class="link" href="https://wangdoc.com/">网道<i class="fas fa-external-link-alt"></i></a>是一个文档网站提供互联网开发文档，正在建设中。这个项目的目标是，提供高质量的、拥有自主版权的、可以自由使用的中文软件文档。网道追求是：“复杂的技术，简单的讲解。” <span id="more"></span></p>
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><!-- toc -->
 
 
@@ -2529,7 +2621,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>挤出系统的特性与选型</title>
     <url>/2022/07/01/%E6%8C%A4%E5%87%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%89%B9%E6%80%A7%E4%B8%8E%E9%80%89%E5%9E%8B/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我公司吹塑机产品种类齐全，涉及的行业如化工、日化、食品、汽车、光伏、水产、医疗等等；中空制品种类从 100mL 化妆品包装到 2000L 水桶容器；所用的原料有 HDPE、LDPE、PP、PVC、PA、TPU/TPE、PC、PETG 等,制品分层结构从单层到 2、3…7 层；客户实际需求、生产环境各不相同。以上方面专业性很强，知识面比较广，业务人员要想全面地了解贯通并在工作中熟练运用是需要一定的学习和实践过程。本文从吹塑机中的挤出系统单元阐述我公司挤出系统类型及其特点，如何在吹塑机产品中选择合适的挤出系统类型和配置以及相关事项。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我公司吹塑机产品种类齐全，涉及的行业如化工、日化、食品、汽车、光伏、水产、医疗等等；中空制品种类从 100mL 化妆品包装到 2000L 水桶容器；所用的原料有 HDPE、LDPE、PP、PVC、PA、TPU/TPE、PC、PETG 等,制品分层结构从单层到 2、3…7 层；客户实际需求、生产环境各不相同。以上方面专业性很强，知识面比较广，业务人员要想全面地了解贯通并在工作中熟练运用是需要一定的学习和实践过程。本文从吹塑机中的挤出系统单元阐述我公司挤出系统类型及其特点，如何在吹塑机产品中选择合适的挤出系统类型和配置以及相关事项。</p>
 <h3 id="挤出系统类型"><a href="#挤出系统类型" class="headerlink" title="挤出系统类型"></a>挤出系统类型</h3><h4 id="标准型"><a href="#标准型" class="headerlink" title="标准型"></a>标准型</h4><h5 id="规格参数"><a href="#规格参数" class="headerlink" title="规格参数"></a>规格参数</h5><table>
 <thead>
 <tr>
@@ -2835,7 +2927,7 @@ setTimeout('reloadPage()',1000);
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363673559115" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452213655965" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -2967,11 +3059,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363673559115,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452213655965,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363673559115,op);
+                var chart = Highcharts.chart(highchartsuuid61647452213655965,op);
             }
         </script>
     
@@ -3061,7 +3153,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>西门子数控理论基础教程</title>
     <url>/2022/03/12/%E8%A5%BF%E9%97%A8%E5%AD%90%E6%95%B0%E6%8E%A7%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h3 id="Control-Theory-控制理论："><a href="#Control-Theory-控制理论：" class="headerlink" title="Control Theory 控制理论："></a>Control Theory 控制理论：</h3><p>  <strong>提示:</strong>  数控基础，用于内部培训课件。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h3 id="Control-Theory-控制理论："><a href="#Control-Theory-控制理论：" class="headerlink" title="Control Theory 控制理论："></a>Control Theory 控制理论：</h3><p>  <strong>提示:</strong>  数控基础，用于内部培训课件。</p>
 <p><strong>如果 PDF 显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <iframe src="./西门子_control basics_20180108_ch.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
@@ -3085,17 +3177,17 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑原料HDPE性能和应用</title>
     <url>/2022/02/28/%E5%90%B9%E5%A1%91%E5%8E%9F%E6%96%99HDPE%E6%80%A7%E8%83%BD%E5%92%8C%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<body>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><body>
 <div>
 **如果图表(charts)不能正常显示**<input type="button" value="请重新刷新" onclick="location.reload(true)">
 </div>
 
 <h3 id="材料主要性能-Typical-Properties"><a href="#材料主要性能-Typical-Properties" class="headerlink" title="材料主要性能(Typical Properties):"></a>材料主要性能(Typical Properties):</h3><h4 id="工艺温度"><a href="#工艺温度" class="headerlink" title="工艺温度"></a>工艺温度</h4><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart183" style="height: 500px"></canvas>
+    <canvas id="chart7151" style="height: 500px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart183').getContext('2d');
+    var ctx = document.getElementById('chart7151').getContext('2d');
     var options =  {
     type: 'line',
     data: {
@@ -3193,11 +3285,11 @@ setTimeout('reloadPage()',1000);
 </script>
 
 <h4 id="适用制品容积"><a href="#适用制品容积" class="headerlink" title="适用制品容积"></a>适用制品容积</h4><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart9260" style="height: 500px"></canvas>
+    <canvas id="chart2029" style="height: 500px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart9260').getContext('2d');
+    var ctx = document.getElementById('chart2029').getContext('2d');
     var options =  {
     type: 'bar',
     data: {
@@ -3270,7 +3362,7 @@ setTimeout('reloadPage()',1000);
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363701397198" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452253738770" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -3383,11 +3475,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363701397198,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452253738770,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363701397198,op);
+                var chart = Highcharts.chart(highchartsuuid61647452253738770,op);
             }
         </script>
     
@@ -3397,7 +3489,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363702998594" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452258633834" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -3528,11 +3620,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363702998594,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452258633834,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363702998594,op);
+                var chart = Highcharts.chart(highchartsuuid61647452258633834,op);
             }
         </script>
     
@@ -3542,7 +3634,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363706584097" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452258953044" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -3684,11 +3776,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363706584097,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452258953044,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363706584097,op);
+                var chart = Highcharts.chart(highchartsuuid61647452258953044,op);
             }
         </script>
     
@@ -3698,7 +3790,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363703954276" width="90%" height="300"></div>
+        <div id="highchartsuuid6164745225208306" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -3846,11 +3938,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363703954276,op);
+                        var chart = Highcharts.chart(highchartsuuid6164745225208306,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363703954276,op);
+                var chart = Highcharts.chart(highchartsuuid6164745225208306,op);
             }
         </script>
     
@@ -3860,7 +3952,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363708123018" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452259588378" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -3985,11 +4077,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363708123018,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452259588378,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363708123018,op);
+                var chart = Highcharts.chart(highchartsuuid61647452259588378,op);
             }
         </script>
     
@@ -3999,7 +4091,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363714083041" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452256408130" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -4126,11 +4218,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363714083041,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452256408130,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363714083041,op);
+                var chart = Highcharts.chart(highchartsuuid61647452256408130,op);
             }
         </script>
     
@@ -4140,7 +4232,7 @@ series: [{
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/exporting.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/annotations.js"></script>
         <script src="https://code.highcharts.com.cn/highcharts/8.1.2/modules/oldie.js"></script>
-        <div id="highchartsuuid61121363717279235" width="90%" height="300"></div>
+        <div id="highchartsuuid61647452256337949" width="90%" height="300"></div>
         <script>
             var op = Object.assign({
     chart: {
@@ -4266,11 +4358,11 @@ series: [{
                         } else {
                             op.series = res;
                         }
-                        var chart = Highcharts.chart(highchartsuuid61121363717279235,op);
+                        var chart = Highcharts.chart(highchartsuuid61647452256337949,op);
                     }
                 })
             }else{
-                var chart = Highcharts.chart(highchartsuuid61121363717279235,op);
+                var chart = Highcharts.chart(highchartsuuid61647452256337949,op);
             }
         </script>
     
@@ -4302,7 +4394,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>People&#39;s Dream</title>
     <url>/2022/02/27/People-s-Dream/</url>
-    <content><![CDATA[<p><strong>中文名称</strong>：人们的梦<br><strong>英文名称</strong>：People’s.Dream<br><strong>版本</strong>：尼古拉﹒德﹒安吉利斯<br><strong>专辑歌手</strong>：Nicolas.De.Angelas<br><strong>地区</strong>：法国</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>中文名称</strong>：人们的梦<br><strong>英文名称</strong>：People’s.Dream<br><strong>版本</strong>：尼古拉﹒德﹒安吉利斯<br><strong>专辑歌手</strong>：Nicolas.De.Angelas<br><strong>地区</strong>：法国</p>
 <p><img src="/2022/02/27/People-s-Dream/top.jpg"></p>
 <h3 id="专辑介绍"><a href="#专辑介绍" class="headerlink" title="专辑介绍:"></a><strong>专辑介绍:</strong></h3><p>​        尼古拉．德．安捷罗斯，一九五三年十二月二十六日出生于巴黎近郊，十二岁开始接触吉他。先后求学于多位大师门下，一九八一年发表了真正成名之作《镜中的安娜》，其影响迅速从法国波及世界。他为人诚恳可亲，演奏充满了罗曼斯式的意境云云。对所选的十四首曲子的具体介绍，有谓《旅途》微微地含有一种无形的忧愁感，《梦之果》略含悲伤之意，往往令人回忆起自己人生悲感的一段回忆。</p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=34280215&auto=0&height=66"></iframe>
@@ -4325,7 +4417,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级塑料原料-HDPE-IBC-1000L原料</title>
     <url>/2022/02/26/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HDPE-IBC-1000L%E5%8E%9F%E6%96%99/</url>
-    <content><![CDATA[<div>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><div>
 **如果PDF显示不正常**<input type="button" value="请重新刷新页面" onclick="location.reload(true)">
 </div>
 
@@ -4370,7 +4462,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>中国未来最大的挑战</title>
     <url>/2022/02/20/%E4%B8%AD%E5%9B%BD%E6%9C%AA%E6%9D%A5%E6%9C%80%E5%A4%A7%E7%9A%84%E6%8C%91%E6%88%98/</url>
-    <content><![CDATA[<h2 id="饶毅：中国未来最大的挑战"><a href="#饶毅：中国未来最大的挑战" class="headerlink" title="饶毅：中国未来最大的挑战"></a>饶毅：中国未来最大的挑战</h2><p><img src="/2022/02/20/%E4%B8%AD%E5%9B%BD%E6%9C%AA%E6%9D%A5%E6%9C%80%E5%A4%A7%E7%9A%84%E6%8C%91%E6%88%98/640.webp"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2 id="饶毅：中国未来最大的挑战"><a href="#饶毅：中国未来最大的挑战" class="headerlink" title="饶毅：中国未来最大的挑战"></a>饶毅：中国未来最大的挑战</h2><p><img src="/2022/02/20/%E4%B8%AD%E5%9B%BD%E6%9C%AA%E6%9D%A5%E6%9C%80%E5%A4%A7%E7%9A%84%E6%8C%91%E6%88%98/640.webp"></p>
 <p>作者：饶毅 首都医科大学校长</p>
 <p>来源：诗评万象（ID：spwx6868）</p>
 <h3 id="中国在古代到底有没有过科学？"><a href="#中国在古代到底有没有过科学？" class="headerlink" title="中国在古代到底有没有过科学？"></a><strong>中国在古代到底有没有过科学？</strong></h3><p>第一点需要说明，中国流行一百多年的一种说法：“中国古代有很好的科学传统，到明清后中国科学落后于西方”，是误传。误传含有善意的原因。鸦片战争后，中国内忧外患，国人希望中国强大，提出我们“古代行，现代不行”以鼓励自己。<br>这种的说法传给外国人，特别是由英国的李约瑟再用英文说一遍以后“出口转内销”，对我们的心理有很大的安慰作用。这是在我国普遍自信比较低的时代诞生的一个迷思。<br>这一说法违反基本事实。中国在古代有没有过科学？有，但很弱，而且<strong>特别缺乏抽象、系统、深刻的科学</strong>，有的主要是比较简单的、接近实用和实用的，如与天文、农业、医学相关的科学。<br>以古希腊为重要起源的科学，经欧洲传入阿拉伯，再从阿拉伯传回西方，是一个非常有趣的、很长的历史过程，而中国极少参与。看过欧几里德《几何原本》的，就系统性、深刻性、准确性而言，会感慨两百年前的中国是否达到西方科学两千多年前的程度？<br>中国传统在科学方面不如西方，但我们并非愚蠢的民族，而是我们的智力主要没用于自然科学。我们的人文，例如中文的诗歌，可能有些人会认为是比英文的诗歌要美很多，包括结构上的巧妙。在两千多年前、甚至一千年前，很难看出选择科学、还是人文一定会有很大的不同。最近几百年，人类才认识到自然科学传统的巨大意义。<br>我们的文化对真理的追求相当弱，对自然的好奇整体上也是相当差。不仅以前差，现在恐怕还是不能盲目乐观。对真理和自然的态度成为文化传统的重要短板，今天可能不仅影响我们的科学技术，而且对我们的社会也有影响。</p>
@@ -4417,7 +4509,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级塑料原料: HD5401AA</title>
     <url>/2022/02/19/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HD5401AA/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <p> HD5401AA 是采用 1-己烯作为共聚单体的高密度聚乙烯树脂。其分子量分布宽，具有优异的耐环境应力开裂性能及刚韧平衡性，适用于生产各种中等容积的中空吹塑制品。</p>
 <iframe name="iframe1" src="./HD5401AA.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
@@ -4443,7 +4535,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级塑料原料: HDPE 5502</title>
     <url>/2022/02/19/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HDPE-5502/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"><br><br>HD5502FA 是采用 1-己烯作为共聚单体的高密度聚乙烯树脂。具有良好的加工性能、机械性能和耐环境应力开裂性能，广泛应用于各种小容积吹塑产品，制品具有优异的表面光泽度和刚性。适用于吹塑5 升以下中空容器，可用于盛装食品、润滑油及其它普通化学品等。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"><br><br>HD5502FA 是采用 1-己烯作为共聚单体的高密度聚乙烯树脂。具有良好的加工性能、机械性能和耐环境应力开裂性能，广泛应用于各种小容积吹塑产品，制品具有优异的表面光泽度和刚性。适用于吹塑5 升以下中空容器，可用于盛装食品、润滑油及其它普通化学品等。</p>
 <iframe src="./5502.pdf" width="100%" height="750" type="application/pdf"></iframe>
 <iframe src="./HD5502FA.pdf" width="100%" height="750" type="application/pdf"></iframe>
 
@@ -4467,7 +4559,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级塑料原料: HXM 50100</title>
     <url>/2022/02/19/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-HXM-50100/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <p> HXM 50100是高分子量的乙烯己烯共聚物，适用于大型吹塑和模压热成型零件，需要：</p>
 <blockquote>
 <ul>
@@ -4528,7 +4620,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑级塑料原料：TR-571</title>
     <url>/2022/02/19/%E5%90%B9%E5%A1%91%E7%BA%A7%E5%A1%91%E6%96%99%E5%8E%9F%E6%96%99-TR-571/</url>
-    <content><![CDATA[<p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><strong>如果PDF显示不正常</strong><input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 <p><strong>Marlex****®</strong> <strong>HXM TR- 571</strong> 超高分子量的己烯共聚物</p>
 <p>提供以下方面的良好平衡：</p>
 <blockquote>
@@ -4576,7 +4668,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>加州旅馆</title>
     <url>/2022/02/17/%E5%8A%A0%E5%B7%9E%E6%97%85%E9%A6%86/</url>
-    <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1464389128&auto=1&height=66"></iframe>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1464389128&auto=1&height=66"></iframe>
 
 
 
@@ -4716,7 +4808,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>吹塑机模头</title>
     <url>/2022/02/11/%E5%90%B9%E5%A1%91%E6%9C%BA%E6%A8%A1%E5%A4%B4/</url>
-    <content><![CDATA[<h2 id="模头类型"><a href="#模头类型" class="headerlink" title="模头类型"></a>模头类型</h2><p>​       通常模头从挤出机获得熔融物料后，向前运送并逐渐改为垂直流动。熔体流过竖 直芯棒表面后，以稳定状态达到口模，所有这些必须在短时间内完成,如果完成不好，将会产生熔合线、斑纹以及由于口模固定不当造成的型坯壁厚控制不均等现象。因此模头设计在决定型坯质量进而决定制品质量中确实起关键作用。<br>​        从模头的结构形式来看，主要有两大类:一类是直接挤出式模头；另一类是储料式模头。直接挤出式模头结构特点,可以将其分为中心进料式直角模头和侧向进料式直角模头.根据模头的数量,通常有单模头、双模头、三模头、四模头、六模头、八模头、十模头、十二模头等.<br>​       根据多种塑料的层数，可以分单层模头、双层模头、三层模头、四层模头、五层模头、六层模头等。还有看是否带壁厚控制系统或透明线，配合模头数和层数，相应结构比如有:单层单机头、三层三机头、拉胶透明线双层单机头、拉胶三层四机头等等。<br>​       客户要求的功能越多,设计和制造及安装工艺的难度越高.特别是多层多头模头,要求的流道参 数更精密.目前国际上,流道参数软件理论基本满足要求，但也要根据实际情况来具体调整。</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2 id="模头类型"><a href="#模头类型" class="headerlink" title="模头类型"></a>模头类型</h2><p>​       通常模头从挤出机获得熔融物料后，向前运送并逐渐改为垂直流动。熔体流过竖 直芯棒表面后，以稳定状态达到口模，所有这些必须在短时间内完成,如果完成不好，将会产生熔合线、斑纹以及由于口模固定不当造成的型坯壁厚控制不均等现象。因此模头设计在决定型坯质量进而决定制品质量中确实起关键作用。<br>​        从模头的结构形式来看，主要有两大类:一类是直接挤出式模头；另一类是储料式模头。直接挤出式模头结构特点,可以将其分为中心进料式直角模头和侧向进料式直角模头.根据模头的数量,通常有单模头、双模头、三模头、四模头、六模头、八模头、十模头、十二模头等.<br>​       根据多种塑料的层数，可以分单层模头、双层模头、三层模头、四层模头、五层模头、六层模头等。还有看是否带壁厚控制系统或透明线，配合模头数和层数，相应结构比如有:单层单机头、三层三机头、拉胶透明线双层单机头、拉胶三层四机头等等。<br>​       客户要求的功能越多,设计和制造及安装工艺的难度越高.特别是多层多头模头,要求的流道参 数更精密.目前国际上,流道参数软件理论基本满足要求，但也要根据实际情况来具体调整。</p>
 <h3 id="连续挤出式模头（Extrusion-Continuous-Head"><a href="#连续挤出式模头（Extrusion-Continuous-Head" class="headerlink" title="连续挤出式模头（Extrusion  Continuous Head)"></a>连续挤出式模头（Extrusion  Continuous Head)</h3><h4 id="中心进料式直角模头"><a href="#中心进料式直角模头" class="headerlink" title="中心进料式直角模头"></a>中心进料式直角模头</h4><p>​     直角机头是型坯的挤出方向与挤出机螺杆的轴线相垂直的一种模头结构方式。中心进 料式直角模头的主要结构特点为：在模头内设置有分流筋。<br>​    分流筋分单环和双环，每一环有 两个或三个分流筋。对于PVC或PE小螺杆模头用单环，PE大螺杆模头用双环。见下图2.2(单 环)和 2.3(双环)：</p>
 <p><img src="/2022/02/11/%E5%90%B9%E5%A1%91%E6%9C%BA%E6%A8%A1%E5%A4%B4/1.bmp"></p>
 <img src="/2022/02/11/%E5%90%B9%E5%A1%91%E6%9C%BA%E6%A8%A1%E5%A4%B4/2.bmp" style="zoom:67%;">
@@ -4861,7 +4953,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>挤出机在吹塑工艺中的重要性（二）</title>
     <url>/2021/12/31/%E6%8C%A4%E5%87%BA%E6%9C%BA%E5%9C%A8%E5%90%B9%E5%A1%91%E5%B7%A5%E8%89%BA%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<ul>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><ul>
 <li>挤出机驱动电机的电能在工作中转化为什么？</li>
 <li>塑料原料在挤出塑化的热历程中其物理形态的变化过程？</li>
 <li>塑料熔体粘度在挤出塑化工艺过程中的意义？</li>
@@ -5193,7 +5285,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>挤出机在吹塑工艺中的重要性（一）</title>
     <url>/2021/12/30/%E6%8C%A4%E5%87%BA%E6%9C%BA%E5%9C%A8%E5%90%B9%E5%A1%91%E5%B7%A5%E8%89%BA%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="挤出机在吹塑工艺中的重要性（一）"><a href="#挤出机在吹塑工艺中的重要性（一）" class="headerlink" title="挤出机在吹塑工艺中的重要性（一）"></a><a class="link" href="https://www.cnblogs.com/lybhb8/articles/15304431.html">挤出机在吹塑工艺中的重要性（一）<i class="fas fa-external-link-alt"></i></a></h1><h1 id="吹塑原理（The-principle-of-plastics-blowmolding）"><a href="#吹塑原理（The-principle-of-plastics-blowmolding）" class="headerlink" title="吹塑原理（The principle of plastics blowmolding）"></a>吹塑原理（The principle of plastics blowmolding）</h1><p>吹塑是一种制造过程，用于通过对加热的塑料管充气直至填充模具并形成所需的形状来制造中空塑料零件。在此过程中，原材料是呈小颗粒或小颗粒形式的热塑性塑料，首先将其熔化并成型为空心管，称为型坯。有多种形成型坯的方法，如下所述。然后将型坯夹在两个半模之间，并用压缩空气充气，直到其与型腔的内部形状相符。典型压力为2.5至15bar，远低于注塑成型压力。最后，在零件冷却后，将半模分开并将零件弹出。 由吹塑制成的零件是塑料的，空心的和薄壁的，例如瓶子和容器，它们具有各种形状和尺寸。小产品可能包括用于盛装水，液体肥皂，洗发水，机油和牛奶的瓶子，而较大的容器则包括塑料桶，浴缸和储罐。吹塑零件可由多种热塑性材料制成，包括以下材料：</p>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="挤出机在吹塑工艺中的重要性（一）"><a href="#挤出机在吹塑工艺中的重要性（一）" class="headerlink" title="挤出机在吹塑工艺中的重要性（一）"></a><a class="link" href="https://www.cnblogs.com/lybhb8/articles/15304431.html">挤出机在吹塑工艺中的重要性（一）<i class="fas fa-external-link-alt"></i></a></h1><h1 id="吹塑原理（The-principle-of-plastics-blowmolding）"><a href="#吹塑原理（The-principle-of-plastics-blowmolding）" class="headerlink" title="吹塑原理（The principle of plastics blowmolding）"></a>吹塑原理（The principle of plastics blowmolding）</h1><p>吹塑是一种制造过程，用于通过对加热的塑料管充气直至填充模具并形成所需的形状来制造中空塑料零件。在此过程中，原材料是呈小颗粒或小颗粒形式的热塑性塑料，首先将其熔化并成型为空心管，称为型坯。有多种形成型坯的方法，如下所述。然后将型坯夹在两个半模之间，并用压缩空气充气，直到其与型腔的内部形状相符。典型压力为2.5至15bar，远低于注塑成型压力。最后，在零件冷却后，将半模分开并将零件弹出。 由吹塑制成的零件是塑料的，空心的和薄壁的，例如瓶子和容器，它们具有各种形状和尺寸。小产品可能包括用于盛装水，液体肥皂，洗发水，机油和牛奶的瓶子，而较大的容器则包括塑料桶，浴缸和储罐。吹塑零件可由多种热塑性材料制成，包括以下材料：</p>
 <ul>
 <li>低密度聚乙烯（LDPE）</li>
 <li>高密度聚乙烯（HDPE）</li>
@@ -5261,7 +5353,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>挤出吹塑工艺过程中节能环保的主要措施和方法</title>
     <url>/2021/12/28/%E6%8C%A4%E5%87%BA%E5%90%B9%E5%A1%91%E8%8A%82%E8%83%BD%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="一、挤出吹塑工业规模"><a href="#一、挤出吹塑工业规模" class="headerlink" title="一、挤出吹塑工业规模"></a>一、挤出吹塑工业规模</h2><h3 id="1-吹塑机"><a href="#1-吹塑机" class="headerlink" title="1.吹塑机"></a>1.吹塑机</h3><blockquote>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2 id="一、挤出吹塑工业规模"><a href="#一、挤出吹塑工业规模" class="headerlink" title="一、挤出吹塑工业规模"></a>一、挤出吹塑工业规模</h2><h3 id="1-吹塑机"><a href="#1-吹塑机" class="headerlink" title="1.吹塑机"></a>1.吹塑机</h3><blockquote>
 <h5 id="引用：点击查看"><a href="#引用：点击查看" class="headerlink" title="引用：点击查看"></a><a class="link" href="https://www.adsalecprj.com/wap_sc/news_show-71835.html">引用：点击查看<i class="fas fa-external-link-alt"></i></a></h5><p><strong>捷报！2020年中国塑机营收利润双增长</strong></p>
 <p>来源：中国塑料机械工业协会  日期：2021-02-08</p>
 <p>根据中国塑料机械工业协会的最新分析，2020年488家规模以上塑机企业产量333689台，同比下降5%；营业收入810.56亿元人民币，同比增长近25%；营业成本619.14亿元人民币，同比增加近22%；利润总额in85.72亿元人民币，同比增长49%；营收利润率10.58%，比2019年高1.73个百分点。按季度来看，产量、营业收入和成本呈逐季度递增态势，而利润总额在第二季度达到峰值后，第三、四季度增幅逐步收窄。</p>
@@ -5434,7 +5526,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>Hello World</title>
     <url>/2024/12/20/hello-world/</url>
-    <content><![CDATA[<div>
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><div>
 
 <p><strong>提示：如果图表不能正常显示</strong>  <input type="button" value="请重新刷新页面" onclick="location.reload(true)"></p>
 </div>
@@ -5452,11 +5544,11 @@ setTimeout('reloadPage()',1000);
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
 
 <p>More info: <a class="link" href="https://hexo.io/docs/one-command-deployment.html">Deployment<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Test-Echarts1"><a href="#Test-Echarts1" class="headerlink" title="Test Echarts1"></a>Test Echarts1</h3><div id="echarts1537" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<h3 id="Test-Echarts1"><a href="#Test-Echarts1" class="headerlink" title="Test Echarts1"></a>Test Echarts1</h3><div id="echarts6331" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts1537'));
+        var myChart = echarts.init(document.getElementById('echarts6331'));
         // 指定图表的配置项和数据
         var option = {
    tooltip : {
@@ -5556,11 +5648,11 @@ zr.on('mousemove', function (params) {
 </script>
 
 
-<div id="echarts5935" style="width: 85%;height: 400px;margin: 0 auto"></div>
+<div id="echarts1705" style="width: 85%;height: 400px;margin: 0 auto"></div>
 <script src="https://cdn.bootcss.com/echarts/3.8.0/echarts.common.min.js"></script>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echarts5935'));
+        var myChart = echarts.init(document.getElementById('echarts1705'));
         // 指定图表的配置项和数据
         var option = 
 
@@ -5629,7 +5721,7 @@ setTimeout('reloadPage()',1000);
   <entry>
     <title>hello hexo-keep</title>
     <url>/2022/01/05/hello-hexo-keep/</url>
-    <content><![CDATA[<div align="right">
+    <content><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><div align="right">
   语言:
   简中
   <a title="Chinese" href="README.md">English</a>

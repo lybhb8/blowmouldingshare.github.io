@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="分享知识的快乐和力量">
+    <meta name="author" content="波波林">
+    
+    <title>
+        
+            不同螺杆构型的聚合物塑化过程混合特性分析 |
+        
+        吹塑知识小栈
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/BBL.png">
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"lybhb8.github.io","root":"/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":true},"style":{"primary_color":"#0066cc","logo":"/images/BBL.png","favicon":"/images/BBL.png","avatar":"/images/avatar.svg","font_size":null,"font_family":null,"hover":{"shadow":true,"scale":true},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/images/bg.svg","description":"再小的帆也可以远航！ || Keep writing and Keep loving.","font_color":"667dbe","hitokoto":true},"scroll":{"progress_bar":true,"percent":false}},"local_search":{"enable":true,"preload":true},"code_copy":{},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":false},"comment":{"enable":true,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":false,"wordcount":false,"min2read":false},"img_align":"left","copyright_info":false},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="吹塑知识小栈" type="application/atom+xml">
+</head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/BBL.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+               吹塑知识小栈
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/links"
+                            >
+                                友链
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/links">友链</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">不同螺杆构型的聚合物塑化过程混合特性分析</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">波波林</span>
+                            
+                                <span class="author-label">Lv3</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2025-01-11 14:32:38</span>
+        <span class="mobile">2025-01-11 14:32</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2025-01-11 16:44:50</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E5%A1%91%E6%96%99%E6%9C%BA%E6%A2%B0/">塑料机械</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%90%B9%E5%A1%91%E6%9C%BA/">吹塑机</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h1 id="不同螺杆构型的聚合物塑化过程混合特性分析"><a href="#不同螺杆构型的聚合物塑化过程混合特性分析" class="headerlink" title="不同螺杆构型的聚合物塑化过程混合特性分析"></a>不同螺杆构型的聚合物塑化过程混合特性分析</h1><p>鉴冉冉，谢鹏程，丁玉梅，杨卫民  </p>
+<p>( 北京化工大学，机电工程学院，北京 100029)  </p>
+<p>摘要: 螺杆混合性能是影响聚合物塑化质量和均匀性的重要因素之一。采用扭转元件、销钉元件、Maddock 元件及常规螺纹元件，应用计算流体力学软件 Polyflow 对5 种螺杆构型的混合特性进行了数值仿真分析，结合停留时间分布、剪切速率分布、拉伸速率分布、混合指数和非弹性应力张量的第一特征值等参数比较全面地对其混合能力进行了比较。结果表明，5 种螺杆构型流道内物料均以剪切流动为主，Maddock 元件的剪切作用最明显，具有分流功能的结构可以在一定程度上强化对物料的拉伸作用; 2 种扭转元件对于物料的混合效果相对较好，其次是销钉元件和 Maddock元件，最差的是常规螺纹元件。  </p>
+<p>关键词: 混合性能; 停留时间; 剪切速率; 拉伸速率; 混合效率; 混合指数中图分类号: TP391. 9 文献标识码: A 文章编号: 1001 － 9456( 2018) 06 － 0001 － 04  </p>
+<h2 id="Comparison-of-Polymer-Mixing-Properties-Processed-by-Different-Kinds-of-Screw-Configurations"><a href="#Comparison-of-Polymer-Mixing-Properties-Processed-by-Different-Kinds-of-Screw-Configurations" class="headerlink" title="Comparison of Polymer Mixing Properties Processed by Different Kinds of Screw Configurations"></a>Comparison of Polymer Mixing Properties Processed by Different Kinds of Screw Configurations</h2><p>JIAN Ｒanran，XIE Pengcheng，DING Yumei，YANG Weimin  </p>
+<p>Abstract: The mixing performance of screw was one of the important factors that affected the quality and uniformity of polymer plasticizing． Polymer mixing properties processed by five kinds of screw configurations，namely torsion element，pin element，maddock element and screw element，were simulated and compared through using Polyflow as polymer fluid dynamic software． The mixing ability was compared comprehensively based on residence time distribution，shear rate distribution， stretching rate distribution，mixing index and the first eigenvalue of the extra-stress tensor $T$ ． The results showed that material in the runner of five kinds of screw configurations suffered shear action mainly，and maddock element was of the largest shear action in the runner． The structure with distributary function could strengthen the tensile effect on the material to a certain extent． The mixing effect of two kinds of torsion elements was relatively good，the next was pin element and maddock element， the worst was the conventional screw element．  </p>
+<p>Keywords: mixing properties; resident time; shear rate; stretching rate; mixing efficiency; mixing index  </p>
+<h2 id="0-引言"><a href="#0-引言" class="headerlink" title="0 引言"></a>0 引言</h2><p>塑料制品越来越多地被用于精密光学器件、生物医学器件等领域，对挤出和注射成型加工中的聚合物塑化混合效果要求也越来越高［1］。由于常规螺杆塑化不均，精密制品容易出现各种质量缺陷，很难达到器件的使用要求［2］。  </p>
+<p>作为决定制品质量的关键因素之一，聚合物熔体的均匀性很大程度上取决于塑化过程中螺杆混合性能的优劣［3 －4］。目前，设计完成的混炼元件主要分为4 种形式: 分离型、屏障型、分流型以及变流道型［5 －8］。良好的混合性能可以强化传质，使物料的物理性能更加均匀，例如温度、黏度等。强化混合性能的流体流动形式主要有 3 种: 剪切流、拉伸流、扰流或螺旋流，例如，  </p>
+<p>Maddock 元件的设计原理为剪切流变理论，叶片挤出机［9］的设计原理是拉伸流变理论，销钉元件的设计原理是扰流分流理论，但3 种元件都能达到良好的混合效果。文章将场协同理论引入到聚合物塑化混合过程中，发明了强化径向传质的新型扭转元件［10 －11］，通过扭转曲面和机筒内壁的双重作用实现了物料在流道内的径向翻滚，加速了聚合物的塑化，改善了混合均匀性。  </p>
+<p>在研究中，文章试图采用计算流体力学软件 Polyflow 对常规螺纹元件、销钉元件、Maddock 元件及扭转元件等 5 种不同构型的塑化混炼结构的混合性能进行模拟和对比分析，从而验证了扭转元件对混合性能的改善程度，为其在挤出和注射成型加工设备中的应用提供了理论参考。  </p>
+<h2 id="1-理论模型"><a href="#1-理论模型" class="headerlink" title="1 理论模型"></a>1 理论模型</h2><h3 id="1-1-物理模型"><a href="#1-1-物理模型" class="headerlink" title="1. 1 物理模型"></a>1. 1 物理模型</h3><p>扭转元件三维实体模型如图1 所示，将一定长度的某段螺杆沿圆周方向 $n$ 等分设置分割槽，入口处将单股料流分流成多股，出口处将多股料流汇流成单股; 在分割槽内设计2 个相互垂直的 $90^{\circ}$ 扭转曲面，使聚合物在分割棱和机筒的引导下实现扭转，把原先位于分割槽底部的物料移动到分割槽顶部，使聚合物熔体在沿斜面轴向流动的同时发生径向翻滚。  </p>
+<p>5 种螺杆构型的三维实体模型如图 2 所示，长度和外径均为 $30<del>\mathrm{mm}$ 。螺纹元件螺距为 $30</del>\mathrm{mm}$ ，单个扭转元件长度为 $10\ \mathrm{mm}$ 。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/cbf3a89fa62e47eff3eac69364ccc99f059f3be0e1a200b37c049b4497754e50.jpg"><br>图1 扭转元件物理模型  </p>
+<p>图2d 是3 个扭转元件的分割棱对齐排列，图 2e 是 3 个扭转元  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/33e2002f0a1be475bdb4a04c7994b88822d3f4f748c06be326839ea0245ee121.jpg"><br>( a) 螺纹元件 ( b) 销钉元件 ( c) Maddock 元件 ( d) 扭转元件 A ( e) 扭转元件 B<br>图2 5 种螺杆构型的物理模型  </p>
+<p>件的分割棱交错排列。  </p>
+<h3 id="1-2-数学模型和边界条件"><a href="#1-2-数学模型和边界条件" class="headerlink" title="1. 2 数学模型和边界条件"></a>1. 2 数学模型和边界条件</h3><p>结合聚合物的成型理论，做出如下假设: 熔体为不可压缩流体，流动为非等温非稳定流动，熔体在流道中全充满，壁面无滑移且不计惯性力、重力的影响。流体物性参数如表1 所示。  </p>
+<p>表1 流体物性参数  </p>
+<html><body><table><tr><td>项目</td><td>数值</td></tr><tr><td>密度p/(kg/m3)</td><td>900</td></tr><tr><td>热导率k/（W/（m·K)）</td><td>2</td></tr><tr><td>定容比热容C,/（J/（kg·K)）</td><td>20</td></tr><tr><td>no /( Pa · s)</td><td>10 000</td></tr><tr><td>n∞ /( Pa · s)</td><td>100</td></tr><tr><td>非牛顿指数n</td><td>0.75</td></tr><tr><td>自然时间入/s</td><td>0.5</td></tr><tr><td>温度系数α/（K-1)</td><td>2000</td></tr><tr><td>绝对零度To/K</td><td>0</td></tr><tr><td>基准温度T。/K</td><td>473</td></tr></table></body></html>  
+
+<p>在以上多种假设的情况下，描述该流场的控制方程如公式( 1) ～ ( 3) 所示。  </p>
+<p>连续性方程 </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac></mrow><mspace width="0.16667em"></mspace><mo>=</mo><mspace width="0.16667em"></mspace><mn>0</mn></mrow><annotation encoding="application/x-tex">
+
+{\frac{\partial u_{i}}{\partial x_{i}}}\,=\,0
+
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.9011079999999999em;"></span><span class="strut bottom" style="height:1.351108em;vertical-align:-0.44999999999999996em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span></span><span class="mord mspace thinspace"></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord mathrm">0</span></span></span></span>
+
+<p>动量方程  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>p</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mspace width="0.16667em"></mspace><mo>=</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mo fence="false">(</mo><mspace width="0.16667em"></mspace><mi>η</mi><mspace width="0.16667em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>j</mi></mrow></msub></mrow></mfrac><mo fence="false">)</mo></mrow><annotation encoding="application/x-tex">
+\rho\,\frac{\partial u_{i}}{\partial t}\,+\,\frac{\partial p}{\partial x_{i}}\,=\,\frac{\partial}{\partial x_{j}}\bigg(\,\eta\,\frac{\partial u_{i}}{\partial x_{j}}\bigg)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.45em;"></span><span class="strut bottom" style="height:2.40003em;vertical-align:-0.95003em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ρ</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">t</span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.44610799999999995em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">p</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.34500000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15000000000000002em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit" style="margin-right:0.05724em;">j</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size3">(</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.34500000000000003em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15000000000000002em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit" style="margin-right:0.05724em;">j</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.4149999999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size3">)</span></span></span></span></span></span> 
+
+<p>能量方程  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi><mspace width="0.277778em"></mspace><msub><mi>c</mi><mrow><mi>p</mi></mrow></msub><mrow><mo fence="true">(</mo><mspace width="0.277778em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><msub><mi>u</mi><mrow><mi>i</mi></mrow></msub><mspace width="0.277778em"></mspace><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msub><mi>x</mi><mrow><mi>i</mi></mrow></msub></mrow></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mspace width="0.16667em"></mspace><mi>λ</mi><mspace width="0.277778em"></mspace><mfrac><mrow><msup><mi mathvariant="normal">∂</mi><mrow><mn>2</mn></mrow></msup><mspace width="0.16667em"></mspace><mi>T</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mspace width="0.277778em"></mspace><msubsup><mi>x</mi><mrow><mi>i</mi></mrow><mrow><mn>2</mn></mrow></msubsup></mrow></mfrac><mspace width="0.16667em"></mspace><mo>+</mo><mspace width="0.16667em"></mspace><mi>φ</mi></mrow><annotation encoding="application/x-tex">
+\rho\;c_{p}\left(\;\frac{\partial T}{\partial t}\,+\,u_{i}\;\frac{\partial T}{\partial x_{i}}\right)=\,\lambda\;\frac{\partial^{2}\,T}{\partial\;x_{i}^{2}}\,+\,\varphi
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.15em;"></span><span class="strut bottom" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="base textstyle uncramped"><span class="mord mathit">ρ</span><span class="mord mspace thickspace"></span><span class="mord"><span class="mord mathit">c</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit">p</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="minner textstyle uncramped"><span class="style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size2">(</span></span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit">t</span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit">u</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="style-wrap reset-textstyle textstyle uncramped" style="top:0em;"><span class="delimsizing size2">)</span></span></span><span class="mrel">=</span><span class="mord mspace thinspace"></span><span class="mord mathit">λ</span><span class="mord mspace thickspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.3735799999999999em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="mord mspace thickspace"></span><span class="mord"><span class="mord mathit">x</span><span class="vlist"><span style="top:0.2862857142857143em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathit">i</span></span></span></span><span style="top:-0.34479999999999994em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord"><span class="mord mathrm" style="margin-right:0.05556em;">∂</span><span class="vlist"><span style="top:-0.363em;margin-right:0.07142857142857144em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle uncramped"><span class="mord scriptscriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.13889em;">T</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">+</span><span class="mord mspace thinspace"></span><span class="mord mathit">φ</span></span></span></span>
+
+<p>本构方程采用 Bird-Carreau 模型和 Arrhenius 模型进行描述，如式( 4) 所示。  </p>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>η</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mo>[</mo><mtext> </mtext><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub><mtext> </mtext><mo>+</mo><mtext> </mtext><mo>(</mo><mtext> </mtext><msub><mi>η</mi><mrow><mn>0</mn></mrow></msub><mtext> </mtext><mo>−</mo><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub><mo>)</mo><mo>(</mo><mtext> </mtext><mn>1</mn><mtext> </mtext><mo>+</mo><msup><mi>λ</mi><mrow><mn>2</mn></mrow></msup><mtext> </mtext><msup><mover accent="true"><mrow><mi>γ</mi></mrow><mo>˙</mo></mover><mrow><mn>2</mn></mrow></msup><msup><mo>)</mo><mrow><mfrac><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></msup><mo>]</mo><mspace width="0.16667em"></mspace><mo>⋅</mo></mrow><annotation encoding="application/x-tex">
+\eta~=~[~\eta_{\infty}~+~(~\eta_{0}~-\eta_{\infty})(~1~+\lambda^{2}~\dot{\gamma}^{2})^{\frac{n-1}{2}}]\,\cdot
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.961885em;"></span><span class="strut bottom" style="height:1.211885em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="mord mspace"> </span><span class="mrel">=</span><span class="mord mspace"> </span><span class="mopen">[</span><span class="mord mspace"> </span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mbin">+</span><span class="mord mspace"> </span><span class="mopen">(</span><span class="mord mspace"> </span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mbin">−</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mspace"> </span><span class="mord mathrm">1</span><span class="mord mspace"> </span><span class="mbin">+</span><span class="mord"><span class="mord mathit">λ</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace"> </span><span class="mord"><span class="mord accent"><span class="vlist"><span style="top:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="mord textstyle cramped"><span class="mord mathit" style="margin-right:0.05556em;">γ</span></span></span><span style="top:0em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="accent-body"><span>˙</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">2</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose"><span class="mclose">)</span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord reset-scriptstyle scriptstyle uncramped"><span class="sizing reset-size5 size5 reset-scriptstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="mord mathrm">2</span></span></span></span><span style="top:-0.22142857142857142em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle textstyle uncramped frac-line"></span></span><span style="top:-0.3952357142857143em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle uncramped"><span class="mord scriptscriptstyle uncramped"><span class="mord mathit">n</span><span class="mbin">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-scriptstyle textstyle uncramped nulldelimiter"></span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mclose">]</span><span class="mord mspace thinspace"></span><span class="mbin">⋅</span></span></span></span> 
+
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>exp</mi><mo fence="true">[</mo><mspace width="0.16667em"></mspace><mi>α</mi><mo fence="true">(</mo><mspace width="0.16667em"></mspace><mfrac><mrow><mn>1</mn></mrow><mrow><mi>T</mi><mspace width="0.16667em"></mspace><mo>−</mo><mspace width="0.16667em"></mspace><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mn>0</mn></mstyle></mrow></msub></mrow></mfrac><mspace width="0.16667em"></mspace><mo>−</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mi>α</mi></mstyle></mrow></msub><mspace width="0.16667em"></mspace><mo>−</mo><mspace width="0.16667em"></mspace><msub><mi>T</mi><mrow><mstyle scriptlevel="2" displaystyle="false"><mn>0</mn></mstyle></mrow></msub></mrow></mfrac><mo fence="true">)</mo><mo fence="true">]</mo></mrow><annotation encoding="application/x-tex">
+\exp\Bigl[\,\alpha\Bigl(\,\frac{1}{T\,-\,T_{\scriptscriptstyle0}}\,-\frac{1}{T_{\scriptscriptstyle\alpha}\,-\,T_{\scriptscriptstyle0}}\Bigr)\Bigr]
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:1.15em;"></span><span class="strut bottom" style="height:1.80002em;vertical-align:-0.65002em;"></span><span class="base textstyle uncramped"><span class="mop">exp</span><span class="mopen"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">[</span></span></span><span class="mord mspace thinspace"></span><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mopen"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">(</span></span></span><span class="mord mspace thinspace"></span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathrm">0</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord reset-textstyle textstyle uncramped"><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span><span class="mfrac"><span class="vlist"><span style="top:0.345em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="mord mspace thinspace"></span><span class="mbin">−</span><span class="mord mspace thinspace"></span><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.07142857142857144em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-scriptstyle scriptscriptstyle cramped"><span class="mord scriptscriptstyle cramped"><span class="reset-scriptscriptstyle scriptscriptstyle uncramped"><span class="mord mathrm">0</span></span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span><span style="top:-0.22999999999999998em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle textstyle uncramped frac-line"></span></span><span style="top:-0.394em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span><span class="sizing reset-size5 size5 reset-textstyle textstyle uncramped nulldelimiter"></span></span><span class="mclose"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">)</span></span></span><span class="mclose"><span class="style-wrap reset-textstyle textstyle uncramped"><span class="delimsizing size2">]</span></span></span></span></span></span> 
+
+
+<p>式中: <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>η</mi></mrow><annotation encoding="application/x-tex">\eta </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.43056em;"></span><span class="strut bottom" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.03588em;">η</span></span></span></span> 为表观黏度，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><msub><mi>η</mi><mrow><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s};\eta_{0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为零剪切黏度，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><msub><mi>η</mi><mrow><mi mathvariant="normal">∞</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s};\eta_{\infty} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord"><span class="mord mathit" style="margin-right:0.03588em;">η</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.03588em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">∞</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为无穷大剪切黏度， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">P</mi><mi mathvariant="normal">a</mi></mrow><mo>⋅</mo><mrow><mi mathvariant="normal">s</mi></mrow><mo separator="true">;</mo><mi>λ</mi></mrow><annotation encoding="application/x-tex">\mathrm{Pa}\cdot\mathrm{s} ; \lambda </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">P</span><span class="mord mathrm">a</span></span><span class="mbin">⋅</span><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="mpunct">;</span><span class="mord mathit">λ</span></span></span></span> 为自然时间， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="bold">s</mi></mrow><mo separator="true">;</mo><mi>α</mi></mrow><annotation encoding="application/x-tex">\mathbf{s};\alpha </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.44444em;"></span><span class="strut bottom" style="height:0.63888em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathbf">s</span></span><span class="mpunct">;</span><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span> 为温度系数， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow><mrow><mi mathvariant="normal">K</mi></mrow></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">{\mathrm{K}}^{-1} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">K</span></span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> ; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>T</mi><mrow><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">T_{0}  </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathrm">0</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为绝对零度，K; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>T</mi><mrow><mi>α</mi></mrow></msub></mrow><annotation encoding="application/x-tex">T_{\alpha} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathit" style="margin-right:0.13889em;">T</span><span class="vlist"><span style="top:0.15em;margin-right:0.05em;margin-left:-0.13889em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle cramped"><span class="mord scriptstyle cramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为基准温度， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mrow><mi mathvariant="normal">K</mi></mrow><mo separator="true">;</mo><mo separator="true">,</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">\mathrm{K};,n </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.68333em;"></span><span class="strut bottom" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord textstyle uncramped"><span class="mord mathrm">K</span></span><span class="mpunct">;</span><span class="mpunct">,</span><span class="mord mathit">n</span></span></span></span> 为非牛顿指数; <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mrow><mi>γ</mi></mrow><mo>˙</mo></mover></mrow><annotation encoding="application/x-tex">\dot{\gamma} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.66786em;"></span><span class="strut bottom" style="height:0.8623000000000001em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord accent"><span class="vlist"><span style="top:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="mord textstyle cramped"><span class="mord mathit" style="margin-right:0.05556em;">γ</span></span></span><span style="top:0em;margin-left:0em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="accent-body"><span>˙</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 为剪切速率， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow><annotation encoding="application/x-tex">\mathrm{s}^{-1} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.8141079999999999em;"></span><span class="strut bottom" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class><span class="mord textstyle uncramped"><span class="mord mathrm">s</span></span><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span><span class="reset-textstyle scriptstyle uncramped"><span class="mord scriptstyle uncramped"><span class="mord">−</span><span class="mord mathrm">1</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">​</span></span>​</span></span></span></span></span></span> 。</p>
+<p>计算中所用到的流动边界条件和热边界条件如表 2 所示，流体与机筒进行恒壁温对流换热。  </p>
+<p>表2 边界条件  </p>
+<html><body><table><tr><td>位置</td><td>流动边界条件</td><td>热边界条件</td></tr><tr><td>流动人口</td><td>质量流率5kg/h</td><td>453 K</td></tr><tr><td>流动出口</td><td>自由出口</td><td>热出口</td></tr><tr><td>机筒内表面</td><td>转速60r/min</td><td>513 K</td></tr><tr><td>螺杆外表面</td><td>壁面无滑移</td><td>绝热</td></tr></table></body></html>  
+
+<h2 id="2-结果与讨论"><a href="#2-结果与讨论" class="headerlink" title="2 结果与讨论"></a>2 结果与讨论</h2><h3 id="2-1-停留时间分布"><a href="#2-1-停留时间分布" class="headerlink" title="2. 1 停留时间分布"></a>2. 1 停留时间分布</h3><p>停留时间分布是表征混合效果的重要参数，停留时间分布曲线相对靠右，则混合效果越好［12］。在流道入口处随机释放3 000个粒子，通过 Polyflow 软件的 Polystat 统计功能模块，统计这些粒子在流场中的运动情况并进行相应的分析。图3 为 5 种螺杆构型对应流道内粒子的累积停留时间分布及流线轨迹。可以看出，累积停留时间分布曲线从左到右依次是螺纹元件、Maddock 元件、销钉元件/扭转元件 A/扭转元件 B。一般而言，Maddock 元件、销钉元件、2 种扭转元件的累积停留时间分布曲线相差较小。结合 5 种螺杆构型的流线轨迹发现，Maddock 结构、销钉和扭转结构的存在引起了扰流或螺旋流，使粒子的运动历程延长，停留时间增大。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/91c2c895d326922d523c2f17a2bee6d07d8e1d12b0a27ac3327e28e9ab729468.jpg"><br>图3 5 种螺杆构型的停留时间分布及流线  </p>
+<h3 id="2-2-剪切速率和拉伸速率分布"><a href="#2-2-剪切速率和拉伸速率分布" class="headerlink" title="2. 2 剪切速率和拉伸速率分布"></a>2. 2 剪切速率和拉伸速率分布</h3><p>剪切速率和拉伸速率分别是评价混合元件对物料剪切和拉伸作用的重要参数，剪切作用和拉伸作用均有助于混合。图 4为5 种螺杆构型沿螺杆轴向的平均剪切速率分布。可以看出，Maddock 元件的剪切速率最大，螺纹元件的剪切速率最小; 销钉元件、扭转元件 A 和扭转元件 B 的沿程剪切速率相差较小; 在没有销钉的轴向位置处，剪切速率有所下降。结果与各螺杆构型是相吻合的，螺杆与机筒间隙越小，剪切作用越明显。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/db175c406efed58c8485e8ac6c08795c83b7c219b0df2c0a6ef0d8871f7ea4a3.jpg"><br>图4 5 种螺杆构型的剪切速率分布  </p>
+<p>图5 为5 种螺杆构型沿螺杆轴向的平均拉伸速率分布。从拉伸速率的数值上可以看出，5 种螺杆构型对物料均没有明显的拉伸作用。然而，对于扭转元件 B 在单个扭转元件交错连接处和销钉元件在销钉位置处，拉伸速率均有所上升，说明结构对物料的分流作用会产生拉伸效果。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/2d0bbf1fadb3b6ba828434c8b4b9d46e4144cac44ab687ff21e1dca1036ac78d.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 ● － 销钉元件 ■ － 扭转元件 A ○ － 扭转元件 B图5 5 种螺杆构型的拉伸速率分布  </p>
+<h3 id="2-3-混合效率"><a href="#2-3-混合效率" class="headerlink" title="2. 3 混合效率"></a>2. 3 混合效率</h3><p>瞬时混合效率和时均混合效率是表征分布混合性能的重要参数，表示物料在拉伸作用下面积伸展的程度［13］。图 6 为 5 种螺杆构型瞬时混合效率随着时间的变化曲线。可以看出，5 种螺杆构型的瞬时混合效率从高到低依次是扭转元件 B、扭转元件 A、销钉元件、Maddock 元件、螺纹元件。这说明随着时间的增加，扭转元件对应的瞬态混合效率高于其他元件，使流道内物料受到拉伸作用而混合效果更好。与图 5 所得结果相比较说明，实验中，在拉伸作用没有明显差异的情况下，瞬时混合效率对拉伸作用的效应比截面平均拉伸速率更明显。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/a9ea09d5e9e18be65ea368c453feac7a5ea195002c7d045379ac34d35db1ff77.jpg"><br>1 － 扭转元件 B 2 － 扭转元件 A 3 － 销钉元件 4 － Maddock 元件 5 － 螺纹元件图6 5 种螺杆构型的瞬时混合效率  </p>
+<p>图7 为5 种螺杆构型沿螺杆轴向的时均混合效率分布。可以看出，随着轴向位置的增加，5 种螺杆构型的时均混合效率从高到低依次为销钉元件、扭转元件 B、扭转元件 A/Maddock 元件、螺纹元件。对于扭转元件 B，在单个扭转元件连接处，时均混合效率迅速增加，这与图5 所示的结果是一致的，单个扭转元件交错连接处分割棱的分流作用打断了流体微团，产生了拉伸作用，提高了混合效果。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/6a0eaec56c52dac63b839f4171b1d441d10035e5735de75239cc40e9c7bc1104.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 ● － 销钉元件 ■ － 扭转元件 $\textrm{A O}-$ 扭转元件 B图7 5 种螺杆构型的时均混合效率  </p>
+<h3 id="2-4-混合指数和非弹性应力张量的第一特征值"><a href="#2-4-混合指数和非弹性应力张量的第一特征值" class="headerlink" title="2.4 混合指数和非弹性应力张量的第一特征值"></a>2.4 混合指数和非弹性应力张量的第一特征值</h3><p>混合指数和非弹性应力张量的第一特征值是表征分散混合性能的重要参数。混合指数的值可以反映流体的流动形式，在0 ～1 的范围内变化，1 代表纯拉伸流动，0. 5 代表简单剪切流动，0 代表简单有旋流动或平移( 刚体运动) ［14 －15］。而非弹性应力张量的第一特征值是使粒子发生破碎的主要应力。图 8 为 5种螺杆构型沿螺杆轴向的混合指数分布情况。可以看出，5 种螺杆构型的混合指数主要集中在 0. 5 左右，说明物料主要以剪切流动为主。对于扭转元件 B，混合指数在单个扭转元件交错连接处出现波峰，与上述图5 和图7 的结果较为一致。  </p>
+<p>图9 为5 种螺杆构型的非弹性应力张量第一特征值。从图中可以得到，该应力第一特征值从高到低依次是 Maddock 元件、扭转元件 A/扭转元件 B/销钉元件、螺纹元件。其中，2 种扭转元件和销钉元件的变化趋势相差较小。因为扭转元件与销钉元件均是基于扰流或螺旋流的作用机制对混合产生影响的，对粒子的破碎作用相对于强剪切结构 Maddock 元件要弱，但是高于常规螺纹元件。  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/94ae7937026c3c958d2d0001d2fb2665947747d04819c0d5e6188baabc9c1c70.jpg"><br>$\diamondsuit$ －螺杆元件 $\times$ － Maddock 元件 $\bullet$ －销钉元件 $\mid-$ 扭转元件 A ○ －扭转元件 B<br>图8 5 种螺杆构型的混合指数  </p>
+<p><img src="/2025/01/11/%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90/48db75ee4d0837d2ec93aa506108506dc6ec59a1ecf45e794d6de4d031102431.jpg"><br>图9 5 种螺杆构型的非弹性应力张量第一特征值  </p>
+<h2 id="3-结论"><a href="#3-结论" class="headerlink" title="3 结论"></a>3 结论</h2><p>文章通过停留时间分布、剪切速率、拉伸速率、混合效率、混合指数、非弹性应力张量的第一特征值等参数对 5 种螺杆构型的混合性能进行了分析和探讨，获得了如下结论:  </p>
+<ol>
+<li><p>5 种螺杆构型对物料的混合效果相对较好的是扭转元件和销钉元件，其次是 Maddock 元件，最后是螺纹元件。新型螺杆结构通过在流道中引入螺旋流，可以增加粒子的运动历程和停留时间，使混合效果更加充分。  </p>
+</li>
+<li><p>Maddock 元件的剪切速率最大，其次是扭转元件和销钉元件，最后是螺纹元件。螺杆与机筒的间隙越小，剪切作用越大，通过增加微小间隙的面积，可以强化其对物料的剪切作用。此外，具有分流功能的结构也可以强化其对物料的拉伸作用。  </p>
+</li>
+<li><p>5 种螺杆构型的瞬时混合效率从高到低依次是扭转元件B、扭转元件 A、销钉元件、Maddock 元件、螺纹元件。综合比较，扭转元件对物料的混合效果要优于销钉元件、Maddock 元件和螺纹元件。扭转元件分割棱的交错排列优于分割棱对齐排列。  </p>
+</li>
+<li><p>5 种螺杆构型的的混合指数主要集中在 0. 5 左右，流动形式主要以剪切流为主。其中，Maddock 元件对物料的破碎作用相对较好，扭转元件和销钉元件次之，螺纹元件最差。  </p>
+</li>
+</ol>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献:"></a>参考文献:</h1><p>［1］ 余东泉，何亚东，杨昆晓，等． 三螺杆挤出机剪切 － 拉伸作用的理论分析［J］． 塑料，2018，47( 2) : 119 － 121．<br>［2］ HOPMANN C，FISCHEＲT． New plasticising process for increasedprecision and reduced residence times in injection moulding of microparts［J］． CIＲP Journal of Manufacturing Science and Technology，2015，9: 51 － 56．<br>［3］ POTENTE H，TOBBEN W H． Improved design of shearing sectionswith new calculation models based on 3D finite-element simulations［J］． Macromolecular Materials and Engineering，2002，287 ( 11 ) :808 － 814．<br>［4］ SIKOＲA J W，SAMUJLO B． Investigation of the poly( vinyl chloride)extrusion process using a feed throat with a feed pocket［J］． PolymerEngineering and Science， $2014,54({:9}):2037:-2045.$<br>［5］ CHEN J，DAI P，YAO H，et al． Numerical analysis of mixing performanceof mixing section in pin-barrel single-screw extruder［J］． Journal ofPolymer Engineering， $2011,,31(,1):53,-62$ ．<br>［6］ ＲAUWENDAAL C． New developments in mixing and screw design［J］． Plastics，Additives and Compounding， $2008,,10(,6):32,-36$ ．<br>［7］ JIAN Ｒ，YANG W，CHENG L，et al． Numerical analysis of enhancedheat transfer by incorporating torsion elements in the homogenizingsection of polymer plasticization with the field synergy principle［J］．International Journal of Heat and Mass Transfer，2017，115，Part A:946 － 953．<br>［8］ TAGUCHI T，SAITO H． Effects of plasticization and hydrostatic pressureon tensile properties of PMMA under compressed carbon dioxide andnitrogen ［J ］． Journal of Applied Polymer Science，2016，133( 20) : 43431．<br>［9］ 华南理工大学． 基于拉伸流变的高分子材料塑化输运方法及设备: 中国，CN100496927C［P］． 2009 － 06 － 10．<br>［10］ 北京化工大学． 聚合物熔体微积分强化传热与混炼塑化挤出机:中国，CN103753793A［P］． 2014 － 04 － 30．<br>［11］ 鉴冉冉，谢鹏程，杨卫民． 基于场协同原理的聚合物塑化过程数值分析［J］． 工程热物理学报，2017，38( 2) : 281 － 288．<br>［12］ KIM S J，KWON T H． Enhancement of mixing performance of single-screw extrusion processes via chaotic flows: Part I． Basic concepts andexperimental study［J］． Advances in Polymer Technology，1996，$15(\mathrm{<del>1</del>}):41-54$ ．<br>［13］ 李彬． 单螺杆混沌挤出过程混合机理与实验研究［D］． 江门: 五邑大学，2014．<br>［14］ 胡建鹏，杜瑶雪，吴希智． 聚合物新型混合分散装置塑化过程模拟分析［J］． 五邑大学学报: 自然科学版，2012，26( 4) : 37 － 41．<br>［15］ 王天书，郝永辉，朱向哲． 螺棱数对三螺杆挤出机混合段流动和混合特性的影响［J］． 塑料工业，2015，43( 12) : 69 － 73．  </p>
+<p>( 本文编辑 GYJ)  </p>
+
+            </div>
+
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E5%90%B9%E5%A1%91%E6%9C%BA/">#吹塑机</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2025/01/11/%E5%A1%91%E6%96%99%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">塑料基础入门</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments"></i>&nbsp;评论
+    </div>
+    
+        
+            
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%8D%E5%90%8C%E8%9E%BA%E6%9D%86%E6%9E%84%E5%9E%8B%E7%9A%84%E8%81%9A%E5%90%88%E7%89%A9%E5%A1%91%E5%8C%96%E8%BF%87%E7%A8%8B%E6%B7%B7%E5%90%88%E7%89%B9%E6%80%A7%E5%88%86%E6%9E%90"><span class="nav-number">1.</span> <span class="nav-text">不同螺杆构型的聚合物塑化过程混合特性分析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Comparison-of-Polymer-Mixing-Properties-Processed-by-Different-Kinds-of-Screw-Configurations"><span class="nav-number">1.1.</span> <span class="nav-text">Comparison of Polymer Mixing Properties Processed by Different Kinds of Screw Configurations</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#0-%E5%BC%95%E8%A8%80"><span class="nav-number">1.2.</span> <span class="nav-text">0 引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%90%86%E8%AE%BA%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.3.</span> <span class="nav-text">1 理论模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-%E7%89%A9%E7%90%86%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.3.1.</span> <span class="nav-text">1. 1 物理模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B%E5%92%8C%E8%BE%B9%E7%95%8C%E6%9D%A1%E4%BB%B6"><span class="nav-number">1.3.2.</span> <span class="nav-text">1. 2 数学模型和边界条件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%BB%93%E6%9E%9C%E4%B8%8E%E8%AE%A8%E8%AE%BA"><span class="nav-number">1.4.</span> <span class="nav-text">2 结果与讨论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-%E5%81%9C%E7%95%99%E6%97%B6%E9%97%B4%E5%88%86%E5%B8%83"><span class="nav-number">1.4.1.</span> <span class="nav-text">2. 1 停留时间分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-%E5%89%AA%E5%88%87%E9%80%9F%E7%8E%87%E5%92%8C%E6%8B%89%E4%BC%B8%E9%80%9F%E7%8E%87%E5%88%86%E5%B8%83"><span class="nav-number">1.4.2.</span> <span class="nav-text">2. 2 剪切速率和拉伸速率分布</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E6%B7%B7%E5%90%88%E6%95%88%E7%8E%87"><span class="nav-number">1.4.3.</span> <span class="nav-text">2. 3 混合效率</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-%E6%B7%B7%E5%90%88%E6%8C%87%E6%95%B0%E5%92%8C%E9%9D%9E%E5%BC%B9%E6%80%A7%E5%BA%94%E5%8A%9B%E5%BC%A0%E9%87%8F%E7%9A%84%E7%AC%AC%E4%B8%80%E7%89%B9%E5%BE%81%E5%80%BC"><span class="nav-number">1.4.4.</span> <span class="nav-text">2.4 混合指数和非弹性应力张量的第一特征值</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%BB%93%E8%AE%BA"><span class="nav-number">1.5.</span> <span class="nav-text">3 结论</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-number">2.</span> <span class="nav-text">参考文献:</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2020</span> -
+            
+            2025
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">波波林</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/js/post-helper.js"></script>
+
+        
+            
+<script src="/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>
